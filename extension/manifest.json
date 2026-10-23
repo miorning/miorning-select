@@ -1,0 +1,57 @@
+{
+  "manifest_version": 3,
+  "name": "喵咛选片台 · MIORNING",
+  "version": "0.6.0",
+  "description": "图片与视频同屏对比、跨网页本机素材库、原文件新增导入画布、原画质视频截取与配乐剪辑。",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "unlimitedStorage"
+  ],
+  "action": {
+    "default_title": "喵咛选片台：打开图标菜单",
+    "default_icon": {
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "start-capture": {
+      "description": "直接开始网页视频点选"
+    }
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'"
+  },
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "run_at": "document_idle",
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "assets.js",
+        "shortcuts.js",
+        "dock.js",
+        "launcher.js"
+      ]
+    }
+  ]
+}

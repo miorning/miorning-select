@@ -1,0 +1,3525 @@
+{
+  "commit": "03d524ffa1a1429616bcd4434f97714a77432bd7",
+  "tree": [
+    {
+      "path": ".editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dae4e7be6d143d86c21d141445c73897a435a6fe",
+      "size": 188,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/dae4e7be6d143d86c21d141445c73897a435a6fe"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6af42bab66b2dbefd060ef75a4fcf975cdf98f99",
+      "size": 822,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/6af42bab66b2dbefd060ef75a4fcf975cdf98f99"
+    },
+    {
+      "path": ".github/workflows/build-check.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44dafce28f141ba99bef36c5b569e9de2d878fab",
+      "size": 610,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/44dafce28f141ba99bef36c5b569e9de2d878fab"
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f4fbc7a44f347bf8495d897e6fd4e7831853346",
+      "size": 577,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/3f4fbc7a44f347bf8495d897e6fd4e7831853346"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "550b77c10e29e6099ccfb1e4365db918696e7c8a",
+      "size": 4899,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/550b77c10e29e6099ccfb1e4365db918696e7c8a"
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c689d63908562461ff661a242729c21b792a83d0",
+      "size": 525,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/c689d63908562461ff661a242729c21b792a83d0"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10438667783087800af1f5cf90ecb486a8d88137",
+      "size": 243,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/10438667783087800af1f5cf90ecb486a8d88137"
+    },
+    {
+      "path": ".vscode/settings.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8e60eac5f3d6ea0fba812af53078c719fea5ca5",
+      "size": 231,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/a8e60eac5f3d6ea0fba812af53078c719fea5ca5"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa3e8d6dbb56906e1f004ed1b70fa9234da96cea",
+      "size": 81,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/fa3e8d6dbb56906e1f004ed1b70fa9234da96cea"
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66377fca88035f7ebddc7ed26b0f3c302d6ab0b8",
+      "size": 617,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/66377fca88035f7ebddc7ed26b0f3c302d6ab0b8"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0a91ac891cbfe57193abc501ee75ac0bb256924",
+      "size": 2535,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/b0a91ac891cbfe57193abc501ee75ac0bb256924"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0a1fa1482eea82e19510e7920cbe3a03e41f691",
+      "size": 16726,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d0a1fa1482eea82e19510e7920cbe3a03e41f691"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3cc280b27507f462b413d4dfe14b54e8170b57c",
+      "size": 9979,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/a3cc280b27507f462b413d4dfe14b54e8170b57c"
+    },
+    {
+      "path": "api-extractor.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "662a706e1c0ae1fd99804dee4f1b8eaae94ce06b",
+      "size": 714,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/662a706e1c0ae1fd99804dee4f1b8eaae94ce06b"
+    },
+    {
+      "path": "dev/CantinaBand60.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47842ede02633e9120466c55f9f4a3542ea9e529",
+      "size": 2646044,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/47842ede02633e9120466c55f9f4a3542ea9e529"
+    },
+    {
+      "path": "dev/convert.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4003b153ef4e491ed70ecfa43e952a618932b41",
+      "size": 6201,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/a4003b153ef4e491ed70ecfa43e952a618932b41"
+    },
+    {
+      "path": "dev/demux.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ff4c1ac886737a973d63ad54367dabc3aa71787",
+      "size": 35299,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/6ff4c1ac886737a973d63ad54367dabc3aa71787"
+    },
+    {
+      "path": "dev/live.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23ee6ff2509a55f4140f6f7bd899d2eb10085bcb",
+      "size": 2284,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/23ee6ff2509a55f4140f6f7bd899d2eb10085bcb"
+    },
+    {
+      "path": "dev/mux.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d24b169a62cdc26baff4a9ba45b77cb0d26dd34",
+      "size": 6043,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/4d24b169a62cdc26baff4a9ba45b77cb0d26dd34"
+    },
+    {
+      "path": "dev/player.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c499d9920b5f7df10c1421ec966bab6a5245cba9",
+      "size": 6419,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/c499d9920b5f7df10c1421ec966bab6a5245cba9"
+    },
+    {
+      "path": "docs/.vitepress/config.mts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24dbe67b992c8590ac0c6589623be1c5cddbcb18",
+      "size": 10285,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/24dbe67b992c8590ac0c6589623be1c5cddbcb18"
+    },
+    {
+      "path": "docs/.vitepress/m3u8-grammar.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a672f070ed0f6ec4723b5fecc235efa7d0a4e45",
+      "size": 2353,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/6a672f070ed0f6ec4723b5fecc235efa7d0a4e45"
+    },
+    {
+      "path": "docs/.vitepress/theme/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7d3dd785d47763d8b9fb122ae19060f5fee7bd3",
+      "size": 163,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/a7d3dd785d47763d8b9fb122ae19060f5fee7bd3"
+    },
+    {
+      "path": "docs/.vitepress/theme/theme.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cb74994c17356d2076f9fe27e3b5d2c2e82bc5e",
+      "size": 1207,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/4cb74994c17356d2076f9fe27e3b5d2c2e82bc5e"
+    },
+    {
+      "path": "docs/api-config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39b9878d6f647138690a87f1ea9180d17f764e21",
+      "size": 2165,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/39b9878d6f647138690a87f1ea9180d17f764e21"
+    },
+    {
+      "path": "docs/assets/big-buck-bunny-trimmed.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "392b27638ba5feaae53485bf939185fe523dc6c3",
+      "size": 10044718,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/392b27638ba5feaae53485bf939185fe523dc6c3"
+    },
+    {
+      "path": "docs/assets/codec-soup.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22969f21304014848e104be4fb295c970ffa2e46",
+      "size": 152056,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/22969f21304014848e104be4fb295c970ffa2e46"
+    },
+    {
+      "path": "docs/assets/download-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4158264eceed98581197a0201d09c64f30c570e4",
+      "size": 278,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/4158264eceed98581197a0201d09c64f30c570e4"
+    },
+    {
+      "path": "docs/assets/fluent-emoji--heart-suit.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7284a484bf79f8a7014b8348ee46909da85b77fd",
+      "size": 4187,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/7284a484bf79f8a7014b8348ee46909da85b77fd"
+    },
+    {
+      "path": "docs/assets/fullscreen-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95408a4fd48afb339e563ecc916f9128af1e675b",
+      "size": 339,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/95408a4fd48afb339e563ecc916f9128af1e675b"
+    },
+    {
+      "path": "docs/assets/german-live-tv.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77be209c32c60046615818b00f1550a5c1e63f8f",
+      "size": 2682882,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/77be209c32c60046615818b00f1550a5c1e63f8f"
+    },
+    {
+      "path": "docs/assets/github-mark.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37fa923df33faeccc4b55228046b5b079a82926d",
+      "size": 963,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/37fa923df33faeccc4b55228046b5b079a82926d"
+    },
+    {
+      "path": "docs/assets/inspiring-io.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c1cc4a466d2fd6cf35f2fba7e56845012fa3a8d",
+      "size": 53430,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/4c1cc4a466d2fd6cf35f2fba7e56845012fa3a8d"
+    },
+    {
+      "path": "docs/assets/mechabunny.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a931796547f10b66cac6a5f1d95076dde71237d8",
+      "size": 81981,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/a931796547f10b66cac6a5f1d95076dde71237d8"
+    },
+    {
+      "path": "docs/assets/pause-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "053c9d4ecdee858d6e4f8d50f072b47aed46fc5d",
+      "size": 283,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/053c9d4ecdee858d6e4f8d50f072b47aed46fc5d"
+    },
+    {
+      "path": "docs/assets/planar_interleaved.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45f08be0c584ca9800aac13110e1c5abf1418cc2",
+      "size": 31984,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/45f08be0c584ca9800aac13110e1c5abf1418cc2"
+    },
+    {
+      "path": "docs/assets/play-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6130c927c8f7320711336b6ccc28ce655e43959",
+      "size": 207,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/f6130c927c8f7320711336b6ccc28ce655e43959"
+    },
+    {
+      "path": "docs/assets/ri--heart-add-fill.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9309b3ed657d4ecd5fb83ebf845ba10018f12412",
+      "size": 314,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/9309b3ed657d4ecd5fb83ebf845ba10018f12412"
+    },
+    {
+      "path": "docs/assets/volume-0-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4552e09d965ec58a3e852d96d41f718ef4112bfa",
+      "size": 359,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/4552e09d965ec58a3e852d96d41f718ef4112bfa"
+    },
+    {
+      "path": "docs/assets/volume-1-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6efb112e7ea4e1c2190457618a772f88117b126d",
+      "size": 378,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/6efb112e7ea4e1c2190457618a772f88117b126d"
+    },
+    {
+      "path": "docs/assets/volume-2-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c412e0dab6f3c5cd513066821ddfb475d6c4a3a",
+      "size": 409,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/8c412e0dab6f3c5cd513066821ddfb475d6c4a3a"
+    },
+    {
+      "path": "docs/assets/volume-off-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c2ff1c3e8588501e9bc672639190c878352a7e6",
+      "size": 437,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/0c2ff1c3e8588501e9bc672639190c878352a7e6"
+    },
+    {
+      "path": "docs/assets/volume-x-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0be0527f8c94710c33c20348ace5ad3a076dcd41",
+      "size": 377,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/0be0527f8c94710c33c20348ace5ad3a076dcd41"
+    },
+    {
+      "path": "docs/blog.data.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "980fd820f9793701c8f025a652f848a38dce66dc",
+      "size": 99,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/980fd820f9793701c8f025a652f848a38dce66dc"
+    },
+    {
+      "path": "docs/blog.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c385c611b4529fa80f755a79d463fce663b9d2be",
+      "size": 1023,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/c385c611b4529fa80f755a79d463fce663b9d2be"
+    },
+    {
+      "path": "docs/blog/mediabunny-now-supports-hls.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49fc127d28f065cfa88ac3902a677450303088e3",
+      "size": 11725,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/49fc127d28f065cfa88ac3902a677450303088e3"
+    },
+    {
+      "path": "docs/blog/quantizer-support.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80696d5c89cb5fee2ed358c19cb9dc06dd338faa",
+      "size": 5099,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/80696d5c89cb5fee2ed358c19cb9dc06dd338faa"
+    },
+    {
+      "path": "docs/codec-registry/aac.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e53b0abecaba8da403dae2a79acbbe84fa85e5e6",
+      "size": 2191,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/e53b0abecaba8da403dae2a79acbbe84fa85e5e6"
+    },
+    {
+      "path": "docs/codec-registry/ac3.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08f97ba4e9f5714d704ca91eaf204dc1c5e97430",
+      "size": 965,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/08f97ba4e9f5714d704ca91eaf204dc1c5e97430"
+    },
+    {
+      "path": "docs/codec-registry/alaw.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29a32f45ad7d51d74d4234aea5f6c46243f31d9c",
+      "size": 894,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/29a32f45ad7d51d74d4234aea5f6c46243f31d9c"
+    },
+    {
+      "path": "docs/codec-registry/av1.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5804a7ce8f99bffff33d95247ce2314244c19a69",
+      "size": 1382,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/5804a7ce8f99bffff33d95247ce2314244c19a69"
+    },
+    {
+      "path": "docs/codec-registry/avc.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c67cb2eebc19b06a3b3739b996750eae1352451",
+      "size": 2248,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/0c67cb2eebc19b06a3b3739b996750eae1352451"
+    },
+    {
+      "path": "docs/codec-registry/dts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88ef8b298d066a45cc79c940a422aa21006c783d",
+      "size": 1565,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/88ef8b298d066a45cc79c940a422aa21006c783d"
+    },
+    {
+      "path": "docs/codec-registry/eac3.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d94d1bbf8d35c1de385219c7e40e6591cf43b6f",
+      "size": 952,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/6d94d1bbf8d35c1de385219c7e40e6591cf43b6f"
+    },
+    {
+      "path": "docs/codec-registry/flac.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41daf9d7b82aa5dc4ca8df7c9a87595adb5789f5",
+      "size": 987,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/41daf9d7b82aa5dc4ca8df7c9a87595adb5789f5"
+    },
+    {
+      "path": "docs/codec-registry/hevc.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0928c66f3d3b676affd5857dbfb681738582e929",
+      "size": 2241,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/0928c66f3d3b676affd5857dbfb681738582e929"
+    },
+    {
+      "path": "docs/codec-registry/mp3.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4ef4528be94e922adbc0375ba7806f0ec2bd292",
+      "size": 812,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/c4ef4528be94e922adbc0375ba7806f0ec2bd292"
+    },
+    {
+      "path": "docs/codec-registry/opus.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45f5da269a5f8d57f058574a1d4187f97c9c52f4",
+      "size": 841,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/45f5da269a5f8d57f058574a1d4187f97c9c52f4"
+    },
+    {
+      "path": "docs/codec-registry/overview.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85e5b27a2208a09a7819f85446bd94d7e5422fd3",
+      "size": 1130,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/85e5b27a2208a09a7819f85446bd94d7e5422fd3"
+    },
+    {
+      "path": "docs/codec-registry/pcm.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc6b28e7047622cbaeacf40ba862301d51f5a557",
+      "size": 1561,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/dc6b28e7047622cbaeacf40ba862301d51f5a557"
+    },
+    {
+      "path": "docs/codec-registry/prores.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a53984accfeb3302e94603495db82a28e74d056",
+      "size": 1079,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/6a53984accfeb3302e94603495db82a28e74d056"
+    },
+    {
+      "path": "docs/codec-registry/ulaw.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d95a8b7ad284d0abf395fd53ee923a29eed71f13",
+      "size": 897,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d95a8b7ad284d0abf395fd53ee923a29eed71f13"
+    },
+    {
+      "path": "docs/codec-registry/vorbis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65252adc56ebfd9b2fa210178254f984e722f5b8",
+      "size": 1119,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/65252adc56ebfd9b2fa210178254f984e722f5b8"
+    },
+    {
+      "path": "docs/codec-registry/vp8.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f55f7c1682ac530a995d8094af5125ac6e972a53",
+      "size": 947,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/f55f7c1682ac530a995d8094af5125ac6e972a53"
+    },
+    {
+      "path": "docs/codec-registry/vp9.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8096b4b010e3e35474fba7c39757590df9a6271a",
+      "size": 1521,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/8096b4b010e3e35474fba7c39757590df9a6271a"
+    },
+    {
+      "path": "docs/components/BlogAuthor.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccf43fd8b4b742f63c74ccb95a4f4bf5b204e904",
+      "size": 776,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/ccf43fd8b4b742f63c74ccb95a4f4bf5b204e904"
+    },
+    {
+      "path": "docs/examples.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b8cf342d7a5d02c2fa33650222ddca9306c3914",
+      "size": 1938,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/9b8cf342d7a5d02c2fa33650222ddca9306c3914"
+    },
+    {
+      "path": "docs/guide/converting-media-files.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c839d14d1c9d1d17d9c227c974de27df41edce93",
+      "size": 28532,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/c839d14d1c9d1d17d9c227c974de27df41edce93"
+    },
+    {
+      "path": "docs/guide/extensions/aac-encoder.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bc323741bc1c8b6ebed658f46be89aeca72d7a3",
+      "size": 2588,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/5bc323741bc1c8b6ebed658f46be89aeca72d7a3"
+    },
+    {
+      "path": "docs/guide/extensions/ac3.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35bfad001ce2f2316938f8fd19b9c74e2f8b9562",
+      "size": 1637,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/35bfad001ce2f2316938f8fd19b9c74e2f8b9562"
+    },
+    {
+      "path": "docs/guide/extensions/dts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90f0161ea781e3cbbafbea7263772112b6a7afb4",
+      "size": 1571,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/90f0161ea781e3cbbafbea7263772112b6a7afb4"
+    },
+    {
+      "path": "docs/guide/extensions/flac-encoder.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c36af5dbc90d9bb6b6f60689b3a85fae748f5f1b",
+      "size": 2539,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/c36af5dbc90d9bb6b6f60689b3a85fae748f5f1b"
+    },
+    {
+      "path": "docs/guide/extensions/mp3-encoder.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6965c56cbb6608327077fda19fa55892d3516aa5",
+      "size": 3771,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/6965c56cbb6608327077fda19fa55892d3516aa5"
+    },
+    {
+      "path": "docs/guide/extensions/prores.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d1cf0f87dd13042330f8e8dd6a631eb1d17de2b",
+      "size": 2198,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/3d1cf0f87dd13042330f8e8dd6a631eb1d17de2b"
+    },
+    {
+      "path": "docs/guide/extensions/server.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e79904c2268d81ffabbd24151143896af3ba5b7c",
+      "size": 12148,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/e79904c2268d81ffabbd24151143896af3ba5b7c"
+    },
+    {
+      "path": "docs/guide/input-formats.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc47e3e39b384cfc94d924a0b1b85f81f6bc149a",
+      "size": 3720,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/fc47e3e39b384cfc94d924a0b1b85f81f6bc149a"
+    },
+    {
+      "path": "docs/guide/installation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67abf2ad9d15d802f0a94506965d365262695baf",
+      "size": 1386,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/67abf2ad9d15d802f0a94506965d365262695baf"
+    },
+    {
+      "path": "docs/guide/introduction.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2ec32aff270dbdbf84b49bde338510f44a69a9e",
+      "size": 6822,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d2ec32aff270dbdbf84b49bde338510f44a69a9e"
+    },
+    {
+      "path": "docs/guide/media-sinks.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e5fae4436d59e8b68dc0d54eb96593654305f52",
+      "size": 21714,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/7e5fae4436d59e8b68dc0d54eb96593654305f52"
+    },
+    {
+      "path": "docs/guide/media-sources.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29edec7abb0384b8f768f2976f6a0e14f4fdd1e7",
+      "size": 24609,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/29edec7abb0384b8f768f2976f6a0e14f4fdd1e7"
+    },
+    {
+      "path": "docs/guide/output-formats.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "675c7a1fc48418bd3bb8d137fa3890cddeea6329",
+      "size": 19946,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/675c7a1fc48418bd3bb8d137fa3890cddeea6329"
+    },
+    {
+      "path": "docs/guide/packets-and-samples.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bce1fb18fca81569cb9e02c2cb46eab6cf6e575",
+      "size": 24023,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/6bce1fb18fca81569cb9e02c2cb46eab6cf6e575"
+    },
+    {
+      "path": "docs/guide/quick-start.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d70fbfe1f83568668bb817f82c8479d4b680fd09",
+      "size": 16662,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d70fbfe1f83568668bb817f82c8479d4b680fd09"
+    },
+    {
+      "path": "docs/guide/reading-hls.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca45467612e2967dd58e4fccc2df12f0d4e0a535",
+      "size": 15202,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/ca45467612e2967dd58e4fccc2df12f0d4e0a535"
+    },
+    {
+      "path": "docs/guide/reading-media-files.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6660139198ffded8e6e16f247ebf6216fbddcce",
+      "size": 35926,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/e6660139198ffded8e6e16f247ebf6216fbddcce"
+    },
+    {
+      "path": "docs/guide/supported-formats-and-codecs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "310914829a43bcc27c78128e4764de475e4ba518",
+      "size": 19878,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/310914829a43bcc27c78128e4764de475e4ba518"
+    },
+    {
+      "path": "docs/guide/writing-hls.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b22ee9b15caede8f6b69285a4fb743c11699a2cd",
+      "size": 22864,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/b22ee9b15caede8f6b69285a4fb743c11699a2cd"
+    },
+    {
+      "path": "docs/guide/writing-media-files.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b371a2ab7fb1dc96a867f43eef91b4167b655a4c",
+      "size": 22960,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/b371a2ab7fb1dc96a867f43eef91b4167b655a4c"
+    },
+    {
+      "path": "docs/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0040f22e51f62636728501cf3ec56436d782e63",
+      "size": 24157,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/b0040f22e51f62636728501cf3ec56436d782e63"
+    },
+    {
+      "path": "docs/llms.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a64716d67c604d1795cf54f079dcf6b9e6412c44",
+      "size": 1229,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/a64716d67c604d1795cf54f079dcf6b9e6412c44"
+    },
+    {
+      "path": "docs/public/avatars/konstantin.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49ba326a6d8eb2ef68a5680860a3bf64f83daf0a",
+      "size": 337020,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/49ba326a6d8eb2ef68a5680860a3bf64f83daf0a"
+    },
+    {
+      "path": "docs/public/avatars/yonatan.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84aeca57ff03bb608b3f79a72e3a5377c330151c",
+      "size": 43810,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/84aeca57ff03bb608b3f79a72e3a5377c330151c"
+    },
+    {
+      "path": "docs/public/crf.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4c9dc79032318380a8a0dbe838a818caa336b0f",
+      "size": 200510,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/b4c9dc79032318380a8a0dbe838a818caa336b0f"
+    },
+    {
+      "path": "docs/public/mediabunny-logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f63b585fb608adf21fba085512939b748139ad72",
+      "size": 69009,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/f63b585fb608adf21fba085512939b748139ad72"
+    },
+    {
+      "path": "docs/public/mediabunny-logo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "609b946f964e9f4ad3599d3aca79990344485922",
+      "size": 32414,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/609b946f964e9f4ad3599d3aca79990344485922"
+    },
+    {
+      "path": "docs/public/mediabunny-og-image.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f1f35e35e16f55ad83d889aae978e236c30d6de",
+      "size": 355493,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/9f1f35e35e16f55ad83d889aae978e236c30d6de"
+    },
+    {
+      "path": "docs/public/mingcute--file-info-line.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad90e0f822992dff4da3a3630679d11274061e5e",
+      "size": 985,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/ad90e0f822992dff4da3a3630679d11274061e5e"
+    },
+    {
+      "path": "docs/public/mingcute--file-zip-line.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33079186984ac405bf63d0c4bdb6e4f8f4daf27d",
+      "size": 1168,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/33079186984ac405bf63d0c4bdb6e4f8f4daf27d"
+    },
+    {
+      "path": "docs/public/mingcute--live-line.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6ab20dd106c20710200ad7504ca8c6ef43ca396",
+      "size": 1183,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/c6ab20dd106c20710200ad7504ca8c6ef43ca396"
+    },
+    {
+      "path": "docs/public/mingcute--magic-3-line.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4335d7ff3fc5b058eca837b469278170109b5395",
+      "size": 2024,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/4335d7ff3fc5b058eca837b469278170109b5395"
+    },
+    {
+      "path": "docs/public/mingcute--microphone-line.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90668c4879c7285cc780b2f27a78c10235126982",
+      "size": 1204,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/90668c4879c7285cc780b2f27a78c10235126982"
+    },
+    {
+      "path": "docs/public/mingcute--photo-album-line.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2387bfcd127e2e4e6b76830c333a8d55ad697ea8",
+      "size": 1151,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/2387bfcd127e2e4e6b76830c333a8d55ad697ea8"
+    },
+    {
+      "path": "docs/public/mingcute--video-line.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47632cabe2c0ce51bf4ad7785ebf1db392ff6b30",
+      "size": 1544,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/47632cabe2c0ce51bf4ad7785ebf1db392ff6b30"
+    },
+    {
+      "path": "docs/public/on-air.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5fc4b8267033ff9e3a36fca95d0d5eb55ced9e0",
+      "size": 310934,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/f5fc4b8267033ff9e3a36fca95d0d5eb55ced9e0"
+    },
+    {
+      "path": "docs/public/robots.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32ad9f2a3d0f1d0f781c3d841198666cc1b6639a",
+      "size": 67,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/32ad9f2a3d0f1d0f781c3d841198666cc1b6639a"
+    },
+    {
+      "path": "docs/public/sponsors/diffusionstudio.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9574662b2fd607951017b26803e974ed2bca557",
+      "size": 4039,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/b9574662b2fd607951017b26803e974ed2bca557"
+    },
+    {
+      "path": "docs/public/sponsors/elevenlabs.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "172016dd3f7f4b9aea24feccdf3a063819d1ff81",
+      "size": 13319,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/172016dd3f7f4b9aea24feccdf3a063819d1ff81"
+    },
+    {
+      "path": "docs/public/sponsors/gling.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a37c4f1b19efa1c6c22ddd36040f172ba14bb754",
+      "size": 2147,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/a37c4f1b19efa1c6c22ddd36040f172ba14bb754"
+    },
+    {
+      "path": "docs/public/sponsors/jellypod.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "399f95db561b61896e9fc8051c1edc8c362282a4",
+      "size": 8910,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/399f95db561b61896e9fc8051c1edc8c362282a4"
+    },
+    {
+      "path": "docs/public/sponsors/jitter.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9987f30eb438eb83ee31837a24606f3b53455b02",
+      "size": 13364,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/9987f30eb438eb83ee31837a24606f3b53455b02"
+    },
+    {
+      "path": "docs/public/sponsors/kino.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c9be4eb41a06ad94c73f3b84c8564dc16a4a53a",
+      "size": 6146,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/1c9be4eb41a06ad94c73f3b84c8564dc16a4a53a"
+    },
+    {
+      "path": "docs/public/sponsors/mux.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a3382fe7ae93a6a5e9d20f12c10e83598615e25",
+      "size": 7204,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/7a3382fe7ae93a6a5e9d20f12c10e83598615e25"
+    },
+    {
+      "path": "docs/public/sponsors/photocircle.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9254b513d17a83b98d127e317f779d0990c3f20b",
+      "size": 12961,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/9254b513d17a83b98d127e317f779d0990c3f20b"
+    },
+    {
+      "path": "docs/public/sponsors/pintura-labs.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ace5e907b6495dcc3081d928ade5adc84e7c6687",
+      "size": 603754,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/ace5e907b6495dcc3081d928ade5adc84e7c6687"
+    },
+    {
+      "path": "docs/public/sponsors/ponder.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d335a626cb6a8e7a4b0244e0fcf7424e885977ba",
+      "size": 17813,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d335a626cb6a8e7a4b0244e0fcf7424e885977ba"
+    },
+    {
+      "path": "docs/public/sponsors/remotion-dark.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04e6ea1c30c498ea680ec2c1d9d9c47f150366ff",
+      "size": 13526,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/04e6ea1c30c498ea680ec2c1d9d9c47f150366ff"
+    },
+    {
+      "path": "docs/public/sponsors/remotion-light.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74b359227ba6646c0933da3f767083fe9c44d2b2",
+      "size": 19813,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/74b359227ba6646c0933da3f767083fe9c44d2b2"
+    },
+    {
+      "path": "docs/public/sponsors/rve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72fee8f569c6131a34b1777f4c0e772e364546b0",
+      "size": 8763,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/72fee8f569c6131a34b1777f4c0e772e364546b0"
+    },
+    {
+      "path": "docs/public/sponsors/screen-studio.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc6c20e84c5009a493925c0fc14d0ffca64bd33d",
+      "size": 10764,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/dc6c20e84c5009a493925c0fc14d0ffca64bd33d"
+    },
+    {
+      "path": "docs/public/sponsors/tella.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd9e4478799ac7a9079d669f8a915244d6fb5682",
+      "size": 2049,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/dd9e4478799ac7a9079d669f8a915244d6fb5682"
+    },
+    {
+      "path": "docs/public/vani.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a0dde10cdcfc97e0f932e1fb9b21e6002746ae8",
+      "size": 265799,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/3a0dde10cdcfc97e0f932e1fb9b21e6002746ae8"
+    },
+    {
+      "path": "docs/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04c0b9efd6fe954b9d84d8beebcef62935f1cd0f",
+      "size": 220,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/04c0b9efd6fe954b9d84d8beebcef62935f1cd0f"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c240225a80712903ceddd0b25910845969c17fa",
+      "size": 1526,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/3c240225a80712903ceddd0b25910845969c17fa"
+    },
+    {
+      "path": "examples/base.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cc7c705d874a7ea5d728eff0dd6a881d7707019",
+      "size": 223,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/8cc7c705d874a7ea5d728eff0dd6a881d7707019"
+    },
+    {
+      "path": "examples/base.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4e1823c877b3e2df209870526b3d3c1f5bff71d",
+      "size": 37,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d4e1823c877b3e2df209870526b3d3c1f5bff71d"
+    },
+    {
+      "path": "examples/file-compression/file-compression.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cba16e84d618647ebac904ff0b33aeb04e88b7e9",
+      "size": 5660,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/cba16e84d618647ebac904ff0b33aeb04e88b7e9"
+    },
+    {
+      "path": "examples/file-compression/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5725b57ddf94e08a03231bbd394dda5f7e951b21",
+      "size": 4206,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/5725b57ddf94e08a03231bbd394dda5f7e951b21"
+    },
+    {
+      "path": "examples/hls-transcoding/hls-transcoding.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a85fdde5581dd7c0e650c844efd2402453807398",
+      "size": 8299,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/a85fdde5581dd7c0e650c844efd2402453807398"
+    },
+    {
+      "path": "examples/hls-transcoding/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cc49f0f4d9b1024e08bc329f292c78ba53f1cbd",
+      "size": 7287,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/0cc49f0f4d9b1024e08bc329f292c78ba53f1cbd"
+    },
+    {
+      "path": "examples/live-recording/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "103abb9d23dfeabc9c10d09978c63b1dff4bbc7c",
+      "size": 4129,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/103abb9d23dfeabc9c10d09978c63b1dff4bbc7c"
+    },
+    {
+      "path": "examples/live-recording/live-recording.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8165d913def02266277efb68b20a5dd942ca0318",
+      "size": 7486,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/8165d913def02266277efb68b20a5dd942ca0318"
+    },
+    {
+      "path": "examples/media-player/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "563c2863875180ebff747ce80fc641c668608e7c",
+      "size": 6660,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/563c2863875180ebff747ce80fc641c668608e7c"
+    },
+    {
+      "path": "examples/media-player/media-player.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7882ae2be72c3c2cab73c5d0efcc73b82c3bc967",
+      "size": 24155,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/7882ae2be72c3c2cab73c5d0efcc73b82c3bc967"
+    },
+    {
+      "path": "examples/metadata-extraction/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6a772e4a56b30a16540d1962a435facd0336870",
+      "size": 3981,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/b6a772e4a56b30a16540d1962a435facd0336870"
+    },
+    {
+      "path": "examples/metadata-extraction/metadata-extraction.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43570553eb709bda4bdfa620639963452fba9837",
+      "size": 8657,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/43570553eb709bda4bdfa620639963452fba9837"
+    },
+    {
+      "path": "examples/procedural-generation/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62ac8c0d7b1c9d9e43489d04f4b911a0b6291723",
+      "size": 4627,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/62ac8c0d7b1c9d9e43489d04f4b911a0b6291723"
+    },
+    {
+      "path": "examples/procedural-generation/procedural-generation.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b15628356f4179459acd62b1bc056c2e99d29fa0",
+      "size": 16718,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/b15628356f4179459acd62b1bc056c2e99d29fa0"
+    },
+    {
+      "path": "examples/thumbnail-generation/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d007e6f8de653324de1f76d274f8e5d4d77e45de",
+      "size": 3843,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d007e6f8de653324de1f76d274f8e5d4d77e45de"
+    },
+    {
+      "path": "examples/thumbnail-generation/thumbnail-generation.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7add9bc8df93debbbef744f3b5ee4c8cb3e5f02c",
+      "size": 5905,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/7add9bc8df93debbbef744f3b5ee4c8cb3e5f02c"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e791a2fa1eb2283f7ad75a33b1318acff3b77cd",
+      "size": 464558,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/5e791a2fa1eb2283f7ad75a33b1318acff3b77cd"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "603c71816a7e9b8a9c78c75c7c2c167468fd8d18",
+      "size": 4625,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/603c71816a7e9b8a9c78c75c7c2c167468fd8d18"
+    },
+    {
+      "path": "packages/aac-encoder/.gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72ef19acc4e00ea8e6d35b2a57fe07c48bfe9c47",
+      "size": 27,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/72ef19acc4e00ea8e6d35b2a57fe07c48bfe9c47"
+    },
+    {
+      "path": "packages/aac-encoder/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0a1fa1482eea82e19510e7920cbe3a03e41f691",
+      "size": 16726,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d0a1fa1482eea82e19510e7920cbe3a03e41f691"
+    },
+    {
+      "path": "packages/aac-encoder/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9efa6c7eb796e1425a2d90fd046bc54a0ed18ffb",
+      "size": 5248,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/9efa6c7eb796e1425a2d90fd046bc54a0ed18ffb"
+    },
+    {
+      "path": "packages/aac-encoder/api-extractor.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6908bb7cf07ffafec84b084b9df51109a2611087",
+      "size": 772,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/6908bb7cf07ffafec84b084b9df51109a2611087"
+    },
+    {
+      "path": "packages/aac-encoder/build/aac.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b49462faa943e09112c07ef1d3fa082bd34c1c3",
+      "size": 589426,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/6b49462faa943e09112c07ef1d3fa082bd34c1c3"
+    },
+    {
+      "path": "packages/aac-encoder/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9536255859b4f67eb88f314fee1e2c5ce4c8594",
+      "size": 1332,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/b9536255859b4f67eb88f314fee1e2c5ce4c8594"
+    },
+    {
+      "path": "packages/aac-encoder/src/bridge.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed4ca49cb76ed32b96a13a6e6794c782797d37d3",
+      "size": 4634,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/ed4ca49cb76ed32b96a13a6e6794c782797d37d3"
+    },
+    {
+      "path": "packages/aac-encoder/src/encode.worker.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "875de460031214eaedcbe20ce4bdc610f8fc55eb",
+      "size": 6526,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/875de460031214eaedcbe20ce4bdc610f8fc55eb"
+    },
+    {
+      "path": "packages/aac-encoder/src/encoder.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d955914935c167b7358ef6bf21c9d33ace38d23d",
+      "size": 9626,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d955914935c167b7358ef6bf21c9d33ace38d23d"
+    },
+    {
+      "path": "packages/aac-encoder/src/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1c0d5b6fe7afbfeca38b4daa6774e02fdd8307f",
+      "size": 887,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/f1c0d5b6fe7afbfeca38b4daa6774e02fdd8307f"
+    },
+    {
+      "path": "packages/aac-encoder/src/shared.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f08589af8d6999750796ef5125ff53bda7ad093",
+      "size": 986,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/9f08589af8d6999750796ef5125ff53bda7ad093"
+    },
+    {
+      "path": "packages/aac-encoder/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27a7ef1056e39c5f038ffe7594d00877f1afa14b",
+      "size": 452,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/27a7ef1056e39c5f038ffe7594d00877f1afa14b"
+    },
+    {
+      "path": "packages/aac-encoder/tsdoc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51d29d3ef24a1a07bb9a8856af53fe060bf457ca",
+      "size": 130,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/51d29d3ef24a1a07bb9a8856af53fe060bf457ca"
+    },
+    {
+      "path": "packages/ac3/.gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72ef19acc4e00ea8e6d35b2a57fe07c48bfe9c47",
+      "size": 27,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/72ef19acc4e00ea8e6d35b2a57fe07c48bfe9c47"
+    },
+    {
+      "path": "packages/ac3/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0a1fa1482eea82e19510e7920cbe3a03e41f691",
+      "size": 16726,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d0a1fa1482eea82e19510e7920cbe3a03e41f691"
+    },
+    {
+      "path": "packages/ac3/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc8be678061f12ef4304aec9fb94aca8cfe03718",
+      "size": 4182,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/cc8be678061f12ef4304aec9fb94aca8cfe03718"
+    },
+    {
+      "path": "packages/ac3/api-extractor.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "461488c07e48952f9d24c58fade6783a588d27e6",
+      "size": 764,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/461488c07e48952f9d24c58fade6783a588d27e6"
+    },
+    {
+      "path": "packages/ac3/build/ac3.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65f4c2fee2722b17f890a0199d33a7064dfa359d",
+      "size": 687354,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/65f4c2fee2722b17f890a0199d33a7064dfa359d"
+    },
+    {
+      "path": "packages/ac3/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ee384b22ee3e83e8eca65c66d2ae85f8f91fc2e",
+      "size": 1378,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/5ee384b22ee3e83e8eca65c66d2ae85f8f91fc2e"
+    },
+    {
+      "path": "packages/ac3/src/bridge.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb88428af686e3d49675016a53670cdd6b8f1092",
+      "size": 6958,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/bb88428af686e3d49675016a53670cdd6b8f1092"
+    },
+    {
+      "path": "packages/ac3/src/codec.worker.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f7f9b382507fff9f9951de05006cf5c1e10aa59",
+      "size": 10559,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/2f7f9b382507fff9f9951de05006cf5c1e10aa59"
+    },
+    {
+      "path": "packages/ac3/src/decoder.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fe27883e11c37915c57ffe9795f4be642b17c07",
+      "size": 1951,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/8fe27883e11c37915c57ffe9795f4be642b17c07"
+    },
+    {
+      "path": "packages/ac3/src/encoder.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68342f8cd82c61b10328ca7c71ac2f802952043a",
+      "size": 5880,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/68342f8cd82c61b10328ca7c71ac2f802952043a"
+    },
+    {
+      "path": "packages/ac3/src/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc136afa3d8b8d0d69dbfd6a5132eefe8da77e14",
+      "size": 895,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/cc136afa3d8b8d0d69dbfd6a5132eefe8da77e14"
+    },
+    {
+      "path": "packages/ac3/src/shared.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba8d57805b1a3c7614cbb929e5e1fdb86c79184c",
+      "size": 1672,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/ba8d57805b1a3c7614cbb929e5e1fdb86c79184c"
+    },
+    {
+      "path": "packages/ac3/src/worker-client.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e062ca9183445058da6b5f481171c37d4acd65f1",
+      "size": 3750,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/e062ca9183445058da6b5f481171c37d4acd65f1"
+    },
+    {
+      "path": "packages/ac3/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27a7ef1056e39c5f038ffe7594d00877f1afa14b",
+      "size": 452,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/27a7ef1056e39c5f038ffe7594d00877f1afa14b"
+    },
+    {
+      "path": "packages/ac3/tsdoc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51d29d3ef24a1a07bb9a8856af53fe060bf457ca",
+      "size": 130,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/51d29d3ef24a1a07bb9a8856af53fe060bf457ca"
+    },
+    {
+      "path": "packages/dts/.gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72ef19acc4e00ea8e6d35b2a57fe07c48bfe9c47",
+      "size": 27,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/72ef19acc4e00ea8e6d35b2a57fe07c48bfe9c47"
+    },
+    {
+      "path": "packages/dts/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0a1fa1482eea82e19510e7920cbe3a03e41f691",
+      "size": 16726,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d0a1fa1482eea82e19510e7920cbe3a03e41f691"
+    },
+    {
+      "path": "packages/dts/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f74a3ec2056c096e378b38c60e478d9b5e1a40e",
+      "size": 4072,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/7f74a3ec2056c096e378b38c60e478d9b5e1a40e"
+    },
+    {
+      "path": "packages/dts/api-extractor.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cb42c0475dbf18f374cf5ce76801aa43a111b26",
+      "size": 764,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/8cb42c0475dbf18f374cf5ce76801aa43a111b26"
+    },
+    {
+      "path": "packages/dts/build/dts.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee435075b92bc851bbdfe37e446649856d5f7eb9",
+      "size": 927592,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/ee435075b92bc851bbdfe37e446649856d5f7eb9"
+    },
+    {
+      "path": "packages/dts/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f47265c605db783d371b26d1dd816bae42adb68d",
+      "size": 1360,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/f47265c605db783d371b26d1dd816bae42adb68d"
+    },
+    {
+      "path": "packages/dts/src/bridge.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7446c67f6e9867476bd25616192c78b47cec4ba",
+      "size": 7919,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/b7446c67f6e9867476bd25616192c78b47cec4ba"
+    },
+    {
+      "path": "packages/dts/src/codec.worker.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4858c9f042bdb2d4f45a45c5d5a12d9d8d28d1da",
+      "size": 10339,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/4858c9f042bdb2d4f45a45c5d5a12d9d8d28d1da"
+    },
+    {
+      "path": "packages/dts/src/decoder.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd43eb6dee32940b19f61eee36ca1c2d33a29312",
+      "size": 1907,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/dd43eb6dee32940b19f61eee36ca1c2d33a29312"
+    },
+    {
+      "path": "packages/dts/src/encoder.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d0b3ccc59546727b363e4a90827257783e6b227",
+      "size": 5762,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/5d0b3ccc59546727b363e4a90827257783e6b227"
+    },
+    {
+      "path": "packages/dts/src/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3344b00f381e497269c03970f1596f985ed46fa4",
+      "size": 895,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/3344b00f381e497269c03970f1596f985ed46fa4"
+    },
+    {
+      "path": "packages/dts/src/shared.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27757c1dd58ad6b814dab8f687e3c4636cbacf3e",
+      "size": 1655,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/27757c1dd58ad6b814dab8f687e3c4636cbacf3e"
+    },
+    {
+      "path": "packages/dts/src/worker-client.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c45115de736caca9414f238de0ca66670989552e",
+      "size": 3749,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/c45115de736caca9414f238de0ca66670989552e"
+    },
+    {
+      "path": "packages/dts/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27a7ef1056e39c5f038ffe7594d00877f1afa14b",
+      "size": 452,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/27a7ef1056e39c5f038ffe7594d00877f1afa14b"
+    },
+    {
+      "path": "packages/dts/tsdoc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51d29d3ef24a1a07bb9a8856af53fe060bf457ca",
+      "size": 130,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/51d29d3ef24a1a07bb9a8856af53fe060bf457ca"
+    },
+    {
+      "path": "packages/flac-encoder/.gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72ef19acc4e00ea8e6d35b2a57fe07c48bfe9c47",
+      "size": 27,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/72ef19acc4e00ea8e6d35b2a57fe07c48bfe9c47"
+    },
+    {
+      "path": "packages/flac-encoder/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0a1fa1482eea82e19510e7920cbe3a03e41f691",
+      "size": 16726,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d0a1fa1482eea82e19510e7920cbe3a03e41f691"
+    },
+    {
+      "path": "packages/flac-encoder/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86cc470d5474015eeb6c4af451cdcd88d56b6331",
+      "size": 4828,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/86cc470d5474015eeb6c4af451cdcd88d56b6331"
+    },
+    {
+      "path": "packages/flac-encoder/api-extractor.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fafe3a5a8dc47d712fcf025684f524024ef539a9",
+      "size": 773,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/fafe3a5a8dc47d712fcf025684f524024ef539a9"
+    },
+    {
+      "path": "packages/flac-encoder/build/flac.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "815a63d9628cbc0677fe538dbdf04dc553c47728",
+      "size": 202222,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/815a63d9628cbc0677fe538dbdf04dc553c47728"
+    },
+    {
+      "path": "packages/flac-encoder/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dab2d56acc5423157015e9976f35a35c848542f1",
+      "size": 1324,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/dab2d56acc5423157015e9976f35a35c848542f1"
+    },
+    {
+      "path": "packages/flac-encoder/src/bridge.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02ab4d96187d4f9baf9ae5244be86428e6ae18a8",
+      "size": 6285,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/02ab4d96187d4f9baf9ae5244be86428e6ae18a8"
+    },
+    {
+      "path": "packages/flac-encoder/src/encode.worker.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa93e518ef0ec684435e034842e9957842f80d8e",
+      "size": 6229,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/aa93e518ef0ec684435e034842e9957842f80d8e"
+    },
+    {
+      "path": "packages/flac-encoder/src/encoder.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a5ba08f9b2839ee21fbbaadb01127b51d5df5f7",
+      "size": 6798,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/0a5ba08f9b2839ee21fbbaadb01127b51d5df5f7"
+    },
+    {
+      "path": "packages/flac-encoder/src/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e3e97ee24c7dfca617fdf32370f4204987c04f3",
+      "size": 894,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/0e3e97ee24c7dfca617fdf32370f4204987c04f3"
+    },
+    {
+      "path": "packages/flac-encoder/src/shared.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b6ff9a12a28605b1d521217c77ea826c3e978a6",
+      "size": 956,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/5b6ff9a12a28605b1d521217c77ea826c3e978a6"
+    },
+    {
+      "path": "packages/flac-encoder/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27a7ef1056e39c5f038ffe7594d00877f1afa14b",
+      "size": 452,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/27a7ef1056e39c5f038ffe7594d00877f1afa14b"
+    },
+    {
+      "path": "packages/flac-encoder/tsdoc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "776fc76a3d33d35a6d88a4542c701df1cdfd6742",
+      "size": 124,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/776fc76a3d33d35a6d88a4542c701df1cdfd6742"
+    },
+    {
+      "path": "packages/mp3-encoder/.gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "831b29a6e857fed7d09d1c218f4b26f0b1a3035b",
+      "size": 26,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/831b29a6e857fed7d09d1c218f4b26f0b1a3035b"
+    },
+    {
+      "path": "packages/mp3-encoder/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0a1fa1482eea82e19510e7920cbe3a03e41f691",
+      "size": 16726,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d0a1fa1482eea82e19510e7920cbe3a03e41f691"
+    },
+    {
+      "path": "packages/mp3-encoder/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f79acd4410f17684d5ad185f04624e6cabfcac66",
+      "size": 6494,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/f79acd4410f17684d5ad185f04624e6cabfcac66"
+    },
+    {
+      "path": "packages/mp3-encoder/api-extractor.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a976cc60584e861d2da7f1d89b83f8a04075393",
+      "size": 773,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/4a976cc60584e861d2da7f1d89b83f8a04075393"
+    },
+    {
+      "path": "packages/mp3-encoder/build/lame.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51b176b426738b7dccaabbd30b1f05da3c6223b2",
+      "size": 309562,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/51b176b426738b7dccaabbd30b1f05da3c6223b2"
+    },
+    {
+      "path": "packages/mp3-encoder/build/libmp3lame.a",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6a91dd3a5ddab62fc8a78cedeb669c4d8ae16e5",
+      "size": 344180,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/f6a91dd3a5ddab62fc8a78cedeb669c4d8ae16e5"
+    },
+    {
+      "path": "packages/mp3-encoder/lib/lame.h",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5196690ff72100da28bf3eb8b861b0f0f91a2a78",
+      "size": 50053,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/5196690ff72100da28bf3eb8b861b0f0f91a2a78"
+    },
+    {
+      "path": "packages/mp3-encoder/logo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78a881f68abfa598adad5fd509ddc7d9f3d7706d",
+      "size": 21943,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/78a881f68abfa598adad5fd509ddc7d9f3d7706d"
+    },
+    {
+      "path": "packages/mp3-encoder/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cce1cf498bd6ce2afa2e3972259afc52bf47cdd5",
+      "size": 1324,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/cce1cf498bd6ce2afa2e3972259afc52bf47cdd5"
+    },
+    {
+      "path": "packages/mp3-encoder/src/encode.worker.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25e4e3ad7d06e48bad5eaa0f29ee4a9446a4ea89",
+      "size": 5985,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/25e4e3ad7d06e48bad5eaa0f29ee4a9446a4ea89"
+    },
+    {
+      "path": "packages/mp3-encoder/src/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fe29eeba7f51c1132a8e14c1c0fdfaeb45ed10e",
+      "size": 8019,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/7fe29eeba7f51c1132a8e14c1c0fdfaeb45ed10e"
+    },
+    {
+      "path": "packages/mp3-encoder/src/lame-bridge.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "491ad52f0ef96e12e022bff7b02e26c52c4bb168",
+      "size": 1276,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/491ad52f0ef96e12e022bff7b02e26c52c4bb168"
+    },
+    {
+      "path": "packages/mp3-encoder/src/shared.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "526dac1ee598dba750de321fcff6bd351e32864f",
+      "size": 823,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/526dac1ee598dba750de321fcff6bd351e32864f"
+    },
+    {
+      "path": "packages/mp3-encoder/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27a7ef1056e39c5f038ffe7594d00877f1afa14b",
+      "size": 452,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/27a7ef1056e39c5f038ffe7594d00877f1afa14b"
+    },
+    {
+      "path": "packages/mp3-encoder/tsdoc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51d29d3ef24a1a07bb9a8856af53fe060bf457ca",
+      "size": 130,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/51d29d3ef24a1a07bb9a8856af53fe060bf457ca"
+    },
+    {
+      "path": "packages/prores/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0a1fa1482eea82e19510e7920cbe3a03e41f691",
+      "size": 16726,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d0a1fa1482eea82e19510e7920cbe3a03e41f691"
+    },
+    {
+      "path": "packages/prores/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff714d41d4917f5579575199f2c6ebba20bf8edf",
+      "size": 2983,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/ff714d41d4917f5579575199f2c6ebba20bf8edf"
+    },
+    {
+      "path": "packages/prores/api-extractor.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32669c1d0118dd098f255bbde9f98400443bcf3f",
+      "size": 767,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/32669c1d0118dd098f255bbde9f98400443bcf3f"
+    },
+    {
+      "path": "packages/prores/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee2a6347e7c83d7a95e9d828694561ba9be4aa79",
+      "size": 1282,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/ee2a6347e7c83d7a95e9d828694561ba9be4aa79"
+    },
+    {
+      "path": "packages/prores/src/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8a4a03fd27d6b2bd1734430e4bc95c316980c30",
+      "size": 7191,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/c8a4a03fd27d6b2bd1734430e4bc95c316980c30"
+    },
+    {
+      "path": "packages/prores/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a0d0927760626c44cd896064bc1b1d22470b1b9",
+      "size": 433,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/6a0d0927760626c44cd896064bc1b1d22470b1b9"
+    },
+    {
+      "path": "packages/prores/tsdoc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51d29d3ef24a1a07bb9a8856af53fe060bf457ca",
+      "size": 130,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/51d29d3ef24a1a07bb9a8856af53fe060bf457ca"
+    },
+    {
+      "path": "packages/server/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0a1fa1482eea82e19510e7920cbe3a03e41f691",
+      "size": 16726,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d0a1fa1482eea82e19510e7920cbe3a03e41f691"
+    },
+    {
+      "path": "packages/server/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a2cd5c72befa3b436b897c21337b509bf88ba39",
+      "size": 13190,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/3a2cd5c72befa3b436b897c21337b509bf88ba39"
+    },
+    {
+      "path": "packages/server/api-extractor.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8a1bb4da82ad02607fb3d9bfbd927ec121abf86",
+      "size": 840,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/b8a1bb4da82ad02607fb3d9bfbd927ec121abf86"
+    },
+    {
+      "path": "packages/server/logo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21bddf7994f950dba61c21f56923ade03e0dff56",
+      "size": 138801,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/21bddf7994f950dba61c21f56923ade03e0dff56"
+    },
+    {
+      "path": "packages/server/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dbc0e1eef5d859706155debda0de6a12f8ffc1e",
+      "size": 1454,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/4dbc0e1eef5d859706155debda0de6a12f8ffc1e"
+    },
+    {
+      "path": "packages/server/src/audio-decoder.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "247d16bd36f6349475394c1138019c6733bcc952",
+      "size": 4042,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/247d16bd36f6349475394c1138019c6733bcc952"
+    },
+    {
+      "path": "packages/server/src/audio-encoder.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06ec9120c30b5a04dbe8af1465007859a72d1fbf",
+      "size": 14071,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/06ec9120c30b5a04dbe8af1465007859a72d1fbf"
+    },
+    {
+      "path": "packages/server/src/audio-sample.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b54add9553660fa77b65cfb05b7866030bd7bf1",
+      "size": 3200,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/0b54add9553660fa77b65cfb05b7866030bd7bf1"
+    },
+    {
+      "path": "packages/server/src/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ac3333062a7ef172da1a6909d74cfc4195d2b61",
+      "size": 6063,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/4ac3333062a7ef172da1a6909d74cfc4195d2b61"
+    },
+    {
+      "path": "packages/server/src/misc.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf5cbb3d3166dad1085d7df1731261501bf3c30b",
+      "size": 10817,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/bf5cbb3d3166dad1085d7df1731261501bf3c30b"
+    },
+    {
+      "path": "packages/server/src/video-decoder.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f28d56a3171b0c01fb5844339f03cb386eb9140f",
+      "size": 7928,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/f28d56a3171b0c01fb5844339f03cb386eb9140f"
+    },
+    {
+      "path": "packages/server/src/video-encoder.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c794e3316fca5764b81428c365cfe6b2fe8a7a4",
+      "size": 24863,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/1c794e3316fca5764b81428c365cfe6b2fe8a7a4"
+    },
+    {
+      "path": "packages/server/src/video-sample.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2d102e1f6c46c59f03f23a728fb9f8a06b9c138",
+      "size": 11483,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/b2d102e1f6c46c59f03f23a728fb9f8a06b9c138"
+    },
+    {
+      "path": "packages/server/tsconfig.api-extractor.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d9606de916a2ba07036a69fbd5363316b66075f",
+      "size": 137,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/9d9606de916a2ba07036a69fbd5363316b66075f"
+    },
+    {
+      "path": "packages/server/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27a7ef1056e39c5f038ffe7594d00877f1afa14b",
+      "size": 452,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/27a7ef1056e39c5f038ffe7594d00877f1afa14b"
+    },
+    {
+      "path": "packages/server/tsdoc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "776fc76a3d33d35a6d88a4542c701df1cdfd6742",
+      "size": 124,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/776fc76a3d33d35a6d88a4542c701df1cdfd6742"
+    },
+    {
+      "path": "scripts/add-import-extensions.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0d7b11b45d60b263579789606c705dcdede2ef6",
+      "size": 1058,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/a0d7b11b45d60b263579789606c705dcdede2ef6"
+    },
+    {
+      "path": "scripts/build.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "dec13899a590745df16968bf1a8ecb783aa698e7",
+      "size": 3089,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/dec13899a590745df16968bf1a8ecb783aa698e7"
+    },
+    {
+      "path": "scripts/bundle.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43633fd517cfd5391ef4fd78de8e6952453cfbd7",
+      "size": 6790,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/43633fd517cfd5391ef4fd78de8e6952453cfbd7"
+    },
+    {
+      "path": "scripts/check-docblocks.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22586f9a13fbdbca0960cd2f71a33e91022e61c6",
+      "size": 5152,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/22586f9a13fbdbca0960cd2f71a33e91022e61c6"
+    },
+    {
+      "path": "scripts/check.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "40eef515cb0a4e311925d4b2f86eb105afdda117",
+      "size": 612,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/40eef515cb0a4e311925d4b2f86eb105afdda117"
+    },
+    {
+      "path": "scripts/ensure-license-headers.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcb93e2f5879422b4593aef232c4358c1afa95e8",
+      "size": 1817,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/bcb93e2f5879422b4593aef232c4358c1afa95e8"
+    },
+    {
+      "path": "scripts/esbuild/inlined-workers.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c384aec1e8945799c8fb3613bbbc513ac75128b6",
+      "size": 2891,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/c384aec1e8945799c8fb3613bbbc513ac75128b6"
+    },
+    {
+      "path": "scripts/generate-api-docs.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "319daf5bbdbd6388977ac01b8799c9fce419595f",
+      "size": 88198,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/319daf5bbdbd6388977ac01b8799c9fce419595f"
+    },
+    {
+      "path": "scripts/sync-workspace-deps.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "171dc2609cd38b7dfc29789a0aaec537ded547db",
+      "size": 1292,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/171dc2609cd38b7dfc29789a0aaec537ded547db"
+    },
+    {
+      "path": "scripts/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "311dc283e96dfeb19a82531d28e635b689754121",
+      "size": 173,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/311dc283e96dfeb19a82531d28e635b689754121"
+    },
+    {
+      "path": "scripts/write-version.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc864072a3b281e3288a8631daa539ab8e9c8687",
+      "size": 945,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/bc864072a3b281e3288a8631daa539ab8e9c8687"
+    },
+    {
+      "path": "shared/aac-misc.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1ecaf7c33126ff60cf94e92ccc375c3c2893f5e",
+      "size": 7099,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/e1ecaf7c33126ff60cf94e92ccc375c3c2893f5e"
+    },
+    {
+      "path": "shared/ac3-misc.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa3145fee2c3a75509443a73a8d4ea1172610a23",
+      "size": 506,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/fa3145fee2c3a75509443a73a8d4ea1172610a23"
+    },
+    {
+      "path": "shared/bitstream.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7baa2b276645325c7527ced643f225f94aa9ed50",
+      "size": 1949,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/7baa2b276645325c7527ced643f225f94aa9ed50"
+    },
+    {
+      "path": "shared/dts-misc.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d85cf8df0ee540b7c05565cf57928183b2d62e47",
+      "size": 1299,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d85cf8df0ee540b7c05565cf57928183b2d62e47"
+    },
+    {
+      "path": "shared/mp3-misc.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ff3a8c8b3dc403571d984a9e2c126a0f58bfb26",
+      "size": 5843,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/6ff3a8c8b3dc403571d984a9e2c126a0f58bfb26"
+    },
+    {
+      "path": "shared/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e005134c0e7cbe5dd80a6ee1d2c90c6bb2b266d",
+      "size": 127,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/8e005134c0e7cbe5dd80a6ee1d2c90c6bb2b266d"
+    },
+    {
+      "path": "src/adts/adts-demuxer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96423e265797088383e4edac82e939139a0a71fe",
+      "size": 9142,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/96423e265797088383e4edac82e939139a0a71fe"
+    },
+    {
+      "path": "src/adts/adts-muxer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e33ee7986aef0154098c5cde6abb18554626ad9",
+      "size": 3758,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/1e33ee7986aef0154098c5cde6abb18554626ad9"
+    },
+    {
+      "path": "src/adts/adts-reader.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3504b59d05998692107d94ec1fee9479101c3426",
+      "size": 2629,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/3504b59d05998692107d94ec1fee9479101c3426"
+    },
+    {
+      "path": "src/aes.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50bf2b28abf557414887522ec9317897dedeb326",
+      "size": 9465,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/50bf2b28abf557414887522ec9317897dedeb326"
+    },
+    {
+      "path": "src/codec-data.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2edf2ad2654e10aceb3015193f86a84dbe50f653",
+      "size": 117387,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/2edf2ad2654e10aceb3015193f86a84dbe50f653"
+    },
+    {
+      "path": "src/codec.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab9d1bfda331b2397a4f8c21561ddae1bedc521d",
+      "size": 55295,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/ab9d1bfda331b2397a4f8c21561ddae1bedc521d"
+    },
+    {
+      "path": "src/conversion.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63c45e01f458c800ff1c9ddf557117e137b65cbb",
+      "size": 88406,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/63c45e01f458c800ff1c9ddf557117e137b65cbb"
+    },
+    {
+      "path": "src/custom-coder.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4488a3993b2feb9112fc25d9ab82862d93c6f0bc",
+      "size": 8694,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/4488a3993b2feb9112fc25d9ab82862d93c6f0bc"
+    },
+    {
+      "path": "src/decode.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62f5c5e728598cfeacfe8f765f6172e1f75d3240",
+      "size": 8522,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/62f5c5e728598cfeacfe8f765f6172e1f75d3240"
+    },
+    {
+      "path": "src/demuxer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36a746cc1b8bb381bf987d90ff313c14b1e494ee",
+      "size": 1224,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/36a746cc1b8bb381bf987d90ff313c14b1e494ee"
+    },
+    {
+      "path": "src/encode.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10517895c8b3b2a592887623cf9bd1ac62d7a1cb",
+      "size": 51949,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/10517895c8b3b2a592887623cf9bd1ac62d7a1cb"
+    },
+    {
+      "path": "src/flac/flac-demuxer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f339d52235ad7ca3111106ad4c6ab1f28aca92c",
+      "size": 22410,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/6f339d52235ad7ca3111106ad4c6ab1f28aca92c"
+    },
+    {
+      "path": "src/flac/flac-misc.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f440d3d2492dcaa559c80985e7437177cab72aef",
+      "size": 4190,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/f440d3d2492dcaa559c80985e7437177cab72aef"
+    },
+    {
+      "path": "src/flac/flac-muxer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "411240c6beeb6d2d856cbed2b98562293fa17372",
+      "size": 11983,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/411240c6beeb6d2d856cbed2b98562293fa17372"
+    },
+    {
+      "path": "src/hls/hls-demuxer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82c4571a5a91a29eeb9210020f81e043c94e0250",
+      "size": 30000,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/82c4571a5a91a29eeb9210020f81e043c94e0250"
+    },
+    {
+      "path": "src/hls/hls-misc.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c5c3d54ce3a830cf1463a4c700240bda2c8bbbb",
+      "size": 6150,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/1c5c3d54ce3a830cf1463a4c700240bda2c8bbbb"
+    },
+    {
+      "path": "src/hls/hls-muxer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d06b9ff52a1634d56bd3541f72d29dfd3f332374",
+      "size": 53542,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d06b9ff52a1634d56bd3541f72d29dfd3f332374"
+    },
+    {
+      "path": "src/hls/hls-segmented-input.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2db471369c53e948e26095656ec4fc5345b3dbbc",
+      "size": 25471,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/2db471369c53e948e26095656ec4fc5345b3dbbc"
+    },
+    {
+      "path": "src/id3.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "421a0e134b6cd17dbee0d100d670fc3a870a3b56",
+      "size": 29108,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/421a0e134b6cd17dbee0d100d670fc3a870a3b56"
+    },
+    {
+      "path": "src/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "798c192914a3d02ea304796fff83678336412f80",
+      "size": 7208,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/798c192914a3d02ea304796fff83678336412f80"
+    },
+    {
+      "path": "src/input-format.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d022451cf62eb38c9af1ddedb28ed296f2925e7",
+      "size": 22649,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/9d022451cf62eb38c9af1ddedb28ed296f2925e7"
+    },
+    {
+      "path": "src/input-track.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d26a0316dbcea3b8971641ba95ed0fb767d9f814",
+      "size": 52567,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d26a0316dbcea3b8971641ba95ed0fb767d9f814"
+    },
+    {
+      "path": "src/input.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76ff20b394b21a4460e8e96b0ca32a9566bb8ece",
+      "size": 18274,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/76ff20b394b21a4460e8e96b0ca32a9566bb8ece"
+    },
+    {
+      "path": "src/isobmff/isobmff-boxes.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24a1e43d3b14dc0a563348d59689c732b7c233fc",
+      "size": 62728,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/24a1e43d3b14dc0a563348d59689c732b7c233fc"
+    },
+    {
+      "path": "src/isobmff/isobmff-demuxer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9aa50e05dba48e3460567bf6df37ed9414c2116e",
+      "size": 136752,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/9aa50e05dba48e3460567bf6df37ed9414c2116e"
+    },
+    {
+      "path": "src/isobmff/isobmff-misc.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f67eefb0c49e4363024878205c3fe3a3ec1f10b",
+      "size": 2426,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/9f67eefb0c49e4363024878205c3fe3a3ec1f10b"
+    },
+    {
+      "path": "src/isobmff/isobmff-muxer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6af8668c822d2baece58fbe83201b71c360060f9",
+      "size": 56018,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/6af8668c822d2baece58fbe83201b71c360060f9"
+    },
+    {
+      "path": "src/isobmff/isobmff-reader.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c44376aec6b2473173d30ba3705347af1154d9c9",
+      "size": 3907,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/c44376aec6b2473173d30ba3705347af1154d9c9"
+    },
+    {
+      "path": "src/logging.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5c6e3c0d73a1c53f9095bb56e4773bc71fad97a",
+      "size": 3141,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/a5c6e3c0d73a1c53f9095bb56e4773bc71fad97a"
+    },
+    {
+      "path": "src/matroska/ebml.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4dfa3c3f22aa2011e5a69796287db0760a6adb3",
+      "size": 19989,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/b4dfa3c3f22aa2011e5a69796287db0760a6adb3"
+    },
+    {
+      "path": "src/matroska/matroska-demuxer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29a845af4f1faff4f5b58c07f0e45e7afdf1eb94",
+      "size": 86160,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/29a845af4f1faff4f5b58c07f0e45e7afdf1eb94"
+    },
+    {
+      "path": "src/matroska/matroska-misc.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4720fc959d2f08860f21c306a44dd61e06f82383",
+      "size": 766,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/4720fc959d2f08860f21c306a44dd61e06f82383"
+    },
+    {
+      "path": "src/matroska/matroska-muxer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0f5fcc578d95464e1b25560671d0983ec70c0b3",
+      "size": 45314,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/a0f5fcc578d95464e1b25560671d0983ec70c0b3"
+    },
+    {
+      "path": "src/media-sink.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b62addeedd9c2eadc48a71d6a10084c5a457818c",
+      "size": 90990,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/b62addeedd9c2eadc48a71d6a10084c5a457818c"
+    },
+    {
+      "path": "src/media-source.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f7f5d6739d15f9e85e86c22a66619de02704bc9",
+      "size": 105503,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/1f7f5d6739d15f9e85e86c22a66619de02704bc9"
+    },
+    {
+      "path": "src/metadata.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d452b855b35e84ef670f68a667d490d8e7f336ad",
+      "size": 14189,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d452b855b35e84ef670f68a667d490d8e7f336ad"
+    },
+    {
+      "path": "src/misc.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfd5c5f64b7247e366274ea4b3a017b26670ae1f",
+      "size": 47476,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/dfd5c5f64b7247e366274ea4b3a017b26670ae1f"
+    },
+    {
+      "path": "src/mp3/mp3-demuxer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a89d22203717ff18cfad14df1696dd7032dd429d",
+      "size": 11762,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/a89d22203717ff18cfad14df1696dd7032dd429d"
+    },
+    {
+      "path": "src/mp3/mp3-muxer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fc1763f721a153f84004af6298495aff8f1730b",
+      "size": 7932,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/4fc1763f721a153f84004af6298495aff8f1730b"
+    },
+    {
+      "path": "src/mp3/mp3-reader.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29c4689fd3ff535b058c62bb0c211d662c52adb8",
+      "size": 2004,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/29c4689fd3ff535b058c62bb0c211d662c52adb8"
+    },
+    {
+      "path": "src/mp3/mp3-writer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdc9eed4689bdf9af80def952d90de8e05fd4e98",
+      "size": 3204,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/bdc9eed4689bdf9af80def952d90de8e05fd4e98"
+    },
+    {
+      "path": "src/mpeg-ts/mpeg-ts-demuxer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "990b91efee4aea83f1b1467d0be7be38d237122d",
+      "size": 84495,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/990b91efee4aea83f1b1467d0be7be38d237122d"
+    },
+    {
+      "path": "src/mpeg-ts/mpeg-ts-misc.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7834a9eae881ad2720e8073b3f1ac70cbe70d31",
+      "size": 1032,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/a7834a9eae881ad2720e8073b3f1ac70cbe70d31"
+    },
+    {
+      "path": "src/mpeg-ts/mpeg-ts-muxer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4edb9430a2194df9394f9ed5668bf30c965251cb",
+      "size": 25089,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/4edb9430a2194df9394f9ed5668bf30c965251cb"
+    },
+    {
+      "path": "src/muxer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "894dab67a3dc2c4c816c01e9e28af15b6d7b6f3d",
+      "size": 2513,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/894dab67a3dc2c4c816c01e9e28af15b6d7b6f3d"
+    },
+    {
+      "path": "src/node.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ed1aa39028b0575f7d97c5db5ac03549819c9a5",
+      "size": 389,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/3ed1aa39028b0575f7d97c5db5ac03549819c9a5"
+    },
+    {
+      "path": "src/ogg/ogg-demuxer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d71918d8f10ba58a0cd16be2c549ca0dc0cdce7",
+      "size": 35138,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/5d71918d8f10ba58a0cd16be2c549ca0dc0cdce7"
+    },
+    {
+      "path": "src/ogg/ogg-misc.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7e002a778236326603bfe0af91fbd4ffa03e00d",
+      "size": 3168,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/c7e002a778236326603bfe0af91fbd4ffa03e00d"
+    },
+    {
+      "path": "src/ogg/ogg-muxer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a49cc74d6c0135fe158b2b4440380954477e34ea",
+      "size": 17450,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/a49cc74d6c0135fe158b2b4440380954477e34ea"
+    },
+    {
+      "path": "src/ogg/ogg-reader.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a84e10aebaac7fc5e6927bd9566a259a2fef3b88",
+      "size": 2955,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/a84e10aebaac7fc5e6927bd9566a259a2fef3b88"
+    },
+    {
+      "path": "src/output-format.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "029e79acc77c4054f715bf72178a4c608c80e03d",
+      "size": 44805,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/029e79acc77c4054f715bf72178a4c608c80e03d"
+    },
+    {
+      "path": "src/output.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10e79085e8aa16b7f09a6b237390d7ba5e877610",
+      "size": 35025,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/10e79085e8aa16b7f09a6b237390d7ba5e877610"
+    },
+    {
+      "path": "src/packet.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f345b5d8e3308ab356e4d8766d00c93ff78a9870",
+      "size": 10304,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/f345b5d8e3308ab356e4d8766d00c93ff78a9870"
+    },
+    {
+      "path": "src/pcm.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6fe85e03ecd8af33b5ee0601dc71c273b61dc55",
+      "size": 2203,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/e6fe85e03ecd8af33b5ee0601dc71c273b61dc55"
+    },
+    {
+      "path": "src/reader.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb8402ace29132d8bce1167ccbacea9b8bb44a14",
+      "size": 9544,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/bb8402ace29132d8bce1167ccbacea9b8bb44a14"
+    },
+    {
+      "path": "src/resample.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bf760397e039e466fcca7d8dc1ef58a33fc3a3f",
+      "size": 12817,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/8bf760397e039e466fcca7d8dc1ef58a33fc3a3f"
+    },
+    {
+      "path": "src/sample.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f3b5217715d6215db8d58700e18b3912e8327cb",
+      "size": 117009,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/9f3b5217715d6215db8d58700e18b3912e8327cb"
+    },
+    {
+      "path": "src/segmented-input.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2316df9f3d425a711e1765a41ab7ee5ab03b4e1",
+      "size": 19110,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d2316df9f3d425a711e1765a41ab7ee5ab03b4e1"
+    },
+    {
+      "path": "src/source.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a31426913e50f49c93650b88daef8d66c2b642e1",
+      "size": 87465,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/a31426913e50f49c93650b88daef8d66c2b642e1"
+    },
+    {
+      "path": "src/subtitles.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ae1e508963ed77f22c981e36f9453fc05a4c3f3",
+      "size": 3715,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/2ae1e508963ed77f22c981e36f9453fc05a4c3f3"
+    },
+    {
+      "path": "src/target.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78da89adf70a90ec7b67a7361a4629a9fc613b4b",
+      "size": 24538,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/78da89adf70a90ec7b67a7361a4629a9fc613b4b"
+    },
+    {
+      "path": "src/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8acb1953cb2d95e1f2ae2e45e950df544d5d5a17",
+      "size": 270,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/8acb1953cb2d95e1f2ae2e45e950df544d5d5a17"
+    },
+    {
+      "path": "src/version.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82f46998fddd5c2f220cc8f4047bc4016cfe30de",
+      "size": 440,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/82f46998fddd5c2f220cc8f4047bc4016cfe30de"
+    },
+    {
+      "path": "src/wave/riff-writer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7aca89bbe5ab672f729d3d1d18ac7dfdc789da03",
+      "size": 1016,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/7aca89bbe5ab672f729d3d1d18ac7dfdc789da03"
+    },
+    {
+      "path": "src/wave/wave-demuxer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94024b147806136999998dcc5c40f9c9281ec568",
+      "size": 16293,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/94024b147806136999998dcc5c40f9c9281ec568"
+    },
+    {
+      "path": "src/wave/wave-muxer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c13929d2b4acf0d2bfcc7395ec008ff58731a440",
+      "size": 10726,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/c13929d2b4acf0d2bfcc7395ec008ff58731a440"
+    },
+    {
+      "path": "src/writer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6e37317557fd61a3ddbe8fcaabb26e1aa16d81a",
+      "size": 3034,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d6e37317557fd61a3ddbe8fcaabb26e1aa16d81a"
+    },
+    {
+      "path": "test/browser/adts-demuxing.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02905c884961bc6b8a6f31e45b0fbd93cc0d6d8f",
+      "size": 1910,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/02905c884961bc6b8a6f31e45b0fbd93cc0d6d8f"
+    },
+    {
+      "path": "test/browser/adts-muxing.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33e5a5a9048f002e5d54073db29a01290d9c755d",
+      "size": 3597,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/33e5a5a9048f002e5d54073db29a01290d9c755d"
+    },
+    {
+      "path": "test/browser/audio-samples.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e6328331fc8166b10476e9e7a0c8ee6c817710a",
+      "size": 7559,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/0e6328331fc8166b10476e9e7a0c8ee6c817710a"
+    },
+    {
+      "path": "test/browser/cmaf.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9676975c14e4e8262ee4f984bd91ba479378c454",
+      "size": 2932,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/9676975c14e4e8262ee4f984bd91ba479378c454"
+    },
+    {
+      "path": "test/browser/color-space.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c54046d6d7030415793a205ca32908daad7cff78",
+      "size": 6677,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/c54046d6d7030415793a205ca32908daad7cff78"
+    },
+    {
+      "path": "test/browser/conversion.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4888a02318af34f9d04143dee852ad923888c8e7",
+      "size": 36490,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/4888a02318af34f9d04143dee852ad923888c8e7"
+    },
+    {
+      "path": "test/browser/custom-sample-resources.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3f28c792073915989e257829e9d7b219e42d829",
+      "size": 5203,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/b3f28c792073915989e257829e9d7b219e42d829"
+    },
+    {
+      "path": "test/browser/encode-dimensions.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e86e192c0e54d456721cf886dfb53a6cb7afb44",
+      "size": 2419,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/6e86e192c0e54d456721cf886dfb53a6cb7afb44"
+    },
+    {
+      "path": "test/browser/flac-encoder-extension.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "519e5a8112fc61028d48bd917486247cca1bc440",
+      "size": 3406,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/519e5a8112fc61028d48bd917486247cca1bc440"
+    },
+    {
+      "path": "test/browser/flac.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4ccf5d26d9dea4ce529c17dabf9765b5bb61a29",
+      "size": 2137,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/c4ccf5d26d9dea4ce529c17dabf9765b5bb61a29"
+    },
+    {
+      "path": "test/browser/hls-output.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a9b4fc3bfb86af4ba98894b4b5e1a9f808cc4c9",
+      "size": 1518,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/0a9b4fc3bfb86af4ba98894b4b5e1a9f808cc4c9"
+    },
+    {
+      "path": "test/browser/media-sinks.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c871bfa34a8db4255c26200ff9916f4465489cdb",
+      "size": 2989,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/c871bfa34a8db4255c26200ff9916f4465489cdb"
+    },
+    {
+      "path": "test/browser/media-sources.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbe4d480d10b975ae5c0f27f40dbb9cb13a198a1",
+      "size": 22551,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/cbe4d480d10b975ae5c0f27f40dbb9cb13a198a1"
+    },
+    {
+      "path": "test/browser/mp3.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c3af54a69c8b07bae5d25c228e491f223b6ef73",
+      "size": 773,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/2c3af54a69c8b07bae5d25c228e491f223b6ef73"
+    },
+    {
+      "path": "test/browser/mpeg-ts-decoding.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0462bf5779024e4fa91749623371ef3595e45d08",
+      "size": 1181,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/0462bf5779024e4fa91749623371ef3595e45d08"
+    },
+    {
+      "path": "test/browser/mpeg-ts-muxing.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fea47729cf6d45daf3d13de60fc863e354a190f6",
+      "size": 22726,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/fea47729cf6d45daf3d13de60fc863e354a190f6"
+    },
+    {
+      "path": "test/browser/ogg-demuxer.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "388da4447f5992db2ae11853c76be3e8083bd388",
+      "size": 830,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/388da4447f5992db2ae11853c76be3e8083bd388"
+    },
+    {
+      "path": "test/browser/ogg-muxer.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "851cfd3b59a61c77acd910103139133496c7d0a0",
+      "size": 9304,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/851cfd3b59a61c77acd910103139133496c7d0a0"
+    },
+    {
+      "path": "test/browser/par.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d6ce5a5aec559e826c8551e4eaf186efc1e3bfa",
+      "size": 6878,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/8d6ce5a5aec559e826c8551e4eaf186efc1e3bfa"
+    },
+    {
+      "path": "test/browser/quality.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44f66374d0826682ee054e9f33a09984748458c1",
+      "size": 3483,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/44f66374d0826682ee054e9f33a09984748458c1"
+    },
+    {
+      "path": "test/browser/read-mp4.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de0aa4a2ffcfc40432deb3524ddb3902ff91b37a",
+      "size": 848,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/de0aa4a2ffcfc40432deb3524ddb3902ff91b37a"
+    },
+    {
+      "path": "test/browser/transparency.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d1cf5f1350801d69a58c18d3165eaeecacf4693",
+      "size": 11528,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/7d1cf5f1350801d69a58c18d3165eaeecacf4693"
+    },
+    {
+      "path": "test/browser/url-source.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "befa870f3229e6ac42f275b71d8bd61ae6faa7d3",
+      "size": 1820,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/befa870f3229e6ac42f275b71d8bd61ae6faa7d3"
+    },
+    {
+      "path": "test/browser/video-samples.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e18c0498cb8509ee327913561f0fa40f088bedd",
+      "size": 16115,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/5e18c0498cb8509ee327913561f0fa40f088bedd"
+    },
+    {
+      "path": "test/browser/worker-error.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd7e1f6c7519a44c5182c178c30ce83213c32a6e",
+      "size": 2079,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/fd7e1f6c7519a44c5182c178c30ce83213c32a6e"
+    },
+    {
+      "path": "test/node/aac-encoder-extension.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1b1efe0ec665f533c9793343e7d6265791771d5",
+      "size": 3665,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/f1b1efe0ec665f533c9793343e7d6265791771d5"
+    },
+    {
+      "path": "test/node/ac3.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9383a3929b94706f3e35ce46cefdd3045b413003",
+      "size": 13276,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/9383a3929b94706f3e35ce46cefdd3045b413003"
+    },
+    {
+      "path": "test/node/adts-muxer.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddbcb9c98c79e9dfa982974823edf6d58125a3b4",
+      "size": 3893,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/ddbcb9c98c79e9dfa982974823edf6d58125a3b4"
+    },
+    {
+      "path": "test/node/aes.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca497e3292f637eb6dacdbe59cb7192e62c98b4e",
+      "size": 1909,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/ca497e3292f637eb6dacdbe59cb7192e62c98b4e"
+    },
+    {
+      "path": "test/node/annex-b-conversion.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79c1e420d3b2c73e7b6794da58276cf9582ae6b7",
+      "size": 2583,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/79c1e420d3b2c73e7b6794da58276cf9582ae6b7"
+    },
+    {
+      "path": "test/node/bad-inputs.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5007813057a7c24a635e4e9adeead8c63abd1ee5",
+      "size": 78695,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/5007813057a7c24a635e4e9adeead8c63abd1ee5"
+    },
+    {
+      "path": "test/node/concurrent-runner.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b1c827e25526a5c91e6a16249226567c3d65a3e",
+      "size": 7314,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/5b1c827e25526a5c91e6a16249226567c3d65a3e"
+    },
+    {
+      "path": "test/node/disposition.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0caab02819846be1d14f5cae8b36833caa5b72a",
+      "size": 2269,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/f0caab02819846be1d14f5cae8b36833caa5b72a"
+    },
+    {
+      "path": "test/node/dts.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76c256ffebb1c974056dbed65fe87b51d6948b7a",
+      "size": 12218,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/76c256ffebb1c974056dbed65fe87b51d6948b7a"
+    },
+    {
+      "path": "test/node/duration-from-metadata.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffc651371239f0ac2301ea0cdb7b91f0c5022b73",
+      "size": 3852,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/ffc651371239f0ac2301ea0cdb7b91f0c5022b73"
+    },
+    {
+      "path": "test/node/empty-media.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb90f2c90e5b29f5496acd950ed1f111179632f9",
+      "size": 21211,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/eb90f2c90e5b29f5496acd950ed1f111179632f9"
+    },
+    {
+      "path": "test/node/flac-encoder-extension.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b39a1cef35ebe96d412e736ab5e88f643d968c4a",
+      "size": 3676,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/b39a1cef35ebe96d412e736ab5e88f643d968c4a"
+    },
+    {
+      "path": "test/node/flac.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adac88de80e4047f6e33588ddfa60f8ee7d12dc1",
+      "size": 10821,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/adac88de80e4047f6e33588ddfa60f8ee7d12dc1"
+    },
+    {
+      "path": "test/node/frame-rate.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dad6b42501e18599d846a7356d4350cfd444dc2d",
+      "size": 5873,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/dad6b42501e18599d846a7356d4350cfd444dc2d"
+    },
+    {
+      "path": "test/node/hls-input.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adb17c77faea36f0bee4e1f37e2796549d3c8f3f",
+      "size": 49467,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/adb17c77faea36f0bee4e1f37e2796549d3c8f3f"
+    },
+    {
+      "path": "test/node/hls-output.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bc30979c5dc40734e915d95600be68a052a24cc",
+      "size": 133245,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/9bc30979c5dc40734e915d95600be68a052a24cc"
+    },
+    {
+      "path": "test/node/input.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e923af0f0ff00faf40657c5ca51e6717345c8f0",
+      "size": 915,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/5e923af0f0ff00faf40657c5ca51e6717345c8f0"
+    },
+    {
+      "path": "test/node/isobmff-muxer.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91a28b164deae2ca679ea8121af9127a630dfee2",
+      "size": 18255,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/91a28b164deae2ca679ea8121af9127a630dfee2"
+    },
+    {
+      "path": "test/node/join-paths.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c391ced5e1ee3ad413f110d4ff8f3040637d1ec",
+      "size": 3075,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/1c391ced5e1ee3ad413f110d4ff8f3040637d1ec"
+    },
+    {
+      "path": "test/node/matroska-demuxer.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16769857925e0017a5447663fbb4b1f40386777c",
+      "size": 1511,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/16769857925e0017a5447663fbb4b1f40386777c"
+    },
+    {
+      "path": "test/node/matroska-muxer.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0087a911d8bb9ff99cbbf0b9ead57e6a5cc160d8",
+      "size": 4306,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/0087a911d8bb9ff99cbbf0b9ead57e6a5cc160d8"
+    },
+    {
+      "path": "test/node/metadata-tags.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cf57025b780f59e7f2990128426b7142d08b40e",
+      "size": 26699,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/5cf57025b780f59e7f2990128426b7142d08b40e"
+    },
+    {
+      "path": "test/node/mp3-encoder-extension.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d2c0f83e4d97e618142a8336530515da432d4af",
+      "size": 3766,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/9d2c0f83e4d97e618142a8336530515da432d4af"
+    },
+    {
+      "path": "test/node/mp3-muxer.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4c33d15719914bb57468f91020e91930155acad",
+      "size": 1863,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/e4c33d15719914bb57468f91020e91930155acad"
+    },
+    {
+      "path": "test/node/mpeg-ts-demuxing.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e02aafc5c567cdd1f7a594973a9b5ddf932249a3",
+      "size": 29470,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/e02aafc5c567cdd1f7a594973a9b5ddf932249a3"
+    },
+    {
+      "path": "test/node/node-sample-creation.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cf40642df659330ce8841fa96c9ed8b327ef427",
+      "size": 574,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/0cf40642df659330ce8841fa96c9ed8b327ef427"
+    },
+    {
+      "path": "test/node/output.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "964862b6258a950cc5cb1146244d0af9f111b603",
+      "size": 933,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/964862b6258a950cc5cb1146244d0af9f111b603"
+    },
+    {
+      "path": "test/node/pcm.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5286bc13ac9f70ea3d6c8e4279ef136b8c06b96a",
+      "size": 7045,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/5286bc13ac9f70ea3d6c8e4279ef136b8c06b96a"
+    },
+    {
+      "path": "test/node/prores.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84ce42061818305cbb58dfbd7dd52456ee3eaacc",
+      "size": 5166,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/84ce42061818305cbb58dfbd7dd52456ee3eaacc"
+    },
+    {
+      "path": "test/node/read-mp4.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3812c727ed852693379155cb2bdd9c90850a4ad5",
+      "size": 8573,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/3812c727ed852693379155cb2bdd9c90850a4ad5"
+    },
+    {
+      "path": "test/node/read-wav.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb524ce838fc22a7fc8cd022cba579ab23634912",
+      "size": 728,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/fb524ce838fc22a7fc8cd022cba579ab23634912"
+    },
+    {
+      "path": "test/node/resample.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ed5d91435c46ae704986f263127fe86eacde1d2",
+      "size": 1321,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/1ed5d91435c46ae704986f263127fe86eacde1d2"
+    },
+    {
+      "path": "test/node/server-extension.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15077efa19896cc5cf275f89fb010ad4b215914c",
+      "size": 75716,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/15077efa19896cc5cf275f89fb010ad4b215914c"
+    },
+    {
+      "path": "test/node/source-lifetime.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94500691dcd0247096386c31ad3598d96b7d1baf",
+      "size": 4275,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/94500691dcd0247096386c31ad3598d96b7d1baf"
+    },
+    {
+      "path": "test/node/target.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c28458b70d4f7e819ef5fa534e11667732c0c262",
+      "size": 1394,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/c28458b70d4f7e819ef5fa534e11667732c0c262"
+    },
+    {
+      "path": "test/node/url-source.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b80a044c8908d540d88eff1b07cc8decd80333b",
+      "size": 13236,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/8b80a044c8908d540d88eff1b07cc8decd80333b"
+    },
+    {
+      "path": "test/node/video-transformation-metadata.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bdc57dfe292b0c6256bec1c312d274203bfc7d9",
+      "size": 4223,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/6bdc57dfe292b0c6256bec1c312d274203bfc7d9"
+    },
+    {
+      "path": "test/node/webvtt.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f3f72c9f86216b340d97ed0e00616f8a5694fcd",
+      "size": 1157,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/5f3f72c9f86216b340d97ed0e00616f8a5694fcd"
+    },
+    {
+      "path": "test/public/0.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c0200678c83e9259f85f5f2e93b28ba3068d80b",
+      "size": 1913464,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/0c0200678c83e9259f85f5f2e93b28ba3068d80b"
+    },
+    {
+      "path": "test/public/193039199_mp4_h264_aac_fhd_7.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cc0f16b488ca99590d5abd54fe549a08719261b",
+      "size": 5312128,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/9cc0f16b488ca99590d5abd54fe549a08719261b"
+    },
+    {
+      "path": "test/public/639955605-b752f7ad-7ce8-43c2-8ae9-88e74c6ae696.mp4",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d5c3b2ae850a071a875dd071360df79f3d9f49b6",
+      "size": 202607,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d5c3b2ae850a071a875dd071360df79f3d9f49b6"
+    },
+    {
+      "path": "test/public/Toothsome-Meme.VBRv2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a70e3a34bdc77bfab682a8a962982ce7a09e151",
+      "size": 389468,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/4a70e3a34bdc77bfab682a8a962982ce7a09e151"
+    },
+    {
+      "path": "test/public/ac3-system-b.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20a2fdec221084881ca6ef9e0da0cb325bd00ab2",
+      "size": 125208,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/20a2fdec221084881ca6ef9e0da0cb325bd00ab2"
+    },
+    {
+      "path": "test/public/ac3.mkv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b9a2266d491a8fbe4ca1a0ba8a29a39925c8f8a",
+      "size": 114039,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/3b9a2266d491a8fbe4ca1a0ba8a29a39925c8f8a"
+    },
+    {
+      "path": "test/public/ac3.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dc638e06b5349dd81f50f3b3aa5ba68fa639f13",
+      "size": 113827,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/4dc638e06b5349dd81f50f3b3aa5ba68fa639f13"
+    },
+    {
+      "path": "test/public/ac3.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38b82c19d688894e3857ce6186caf09a0e976e0d",
+      "size": 125208,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/38b82c19d688894e3857ce6186caf09a0e976e0d"
+    },
+    {
+      "path": "test/public/annex-b-avc.mkv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "699dfd297d3423e20e20e0b0cf82a2af206a6a07",
+      "size": 1318464,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/699dfd297d3423e20e20e0b0cf82a2af206a6a07"
+    },
+    {
+      "path": "test/public/annex-b.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a53c09d0e52f5666fea55071ffdc94f4744b3c60",
+      "size": 100000,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/a53c09d0e52f5666fea55071ffdc94f4744b3c60"
+    },
+    {
+      "path": "test/public/cursed-vfr.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9584ac302660a55b1fe57b932613d747e1ee46b",
+      "size": 930067,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d9584ac302660a55b1fe57b932613d747e1ee46b"
+    },
+    {
+      "path": "test/public/demo.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24296a815fc8febc38fafd36f031c61a8f4daeb4",
+      "size": 555158,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/24296a815fc8febc38fafd36f031c61a8f4daeb4"
+    },
+    {
+      "path": "test/public/eac3-system-b.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "462911ec6439ee33bb4974bfa92f6829a0fdaf09",
+      "size": 113364,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/462911ec6439ee33bb4974bfa92f6829a0fdaf09"
+    },
+    {
+      "path": "test/public/eac3.mkv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9fb219869b5e18fba72394269850487efd37ac0",
+      "size": 97899,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/b9fb219869b5e18fba72394269850487efd37ac0"
+    },
+    {
+      "path": "test/public/eac3.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa31d2a6dcd7cbd1bf107bfbca78b58705806997",
+      "size": 97701,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/aa31d2a6dcd7cbd1bf107bfbca78b58705806997"
+    },
+    {
+      "path": "test/public/eac3.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb00fefa1da1524253e218c9e5361fca15a3c2f9",
+      "size": 113364,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/fb00fefa1da1524253e218c9e5361fca15a3c2f9"
+    },
+    {
+      "path": "test/public/edts.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49fb44c11bb834416b7efa2aa043b9be9512e084",
+      "size": 92099,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/49fb44c11bb834416b7efa2aa043b9be9512e084"
+    },
+    {
+      "path": "test/public/entry24-segment3.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "733c7266ce76c438e13303060d1c5388e5ad5015",
+      "size": 639388,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/733c7266ce76c438e13303060d1c5388e5ad5015"
+    },
+    {
+      "path": "test/public/frames.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b7c0095dc668fa54c4bdcc6bb34bf7269e89931",
+      "size": 67304,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/7b7c0095dc668fa54c4bdcc6bb34bf7269e89931"
+    },
+    {
+      "path": "test/public/glitch-hop-is-dead.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "784477ac7223fc0396f8b2714a6b4b0e9b0697e0",
+      "size": 1860384,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/784477ac7223fc0396f8b2714a6b4b0e9b0697e0"
+    },
+    {
+      "path": "test/public/he-aac-v2.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58110267abd9cc9ea3d6711ce586f48e6e324069",
+      "size": 100000,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/58110267abd9cc9ea3d6711ce586f48e6e324069"
+    },
+    {
+      "path": "test/public/hevc.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b06a6b0b3412687fea15c244a1f8d4e8703b64b1",
+      "size": 993768,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/b06a6b0b3412687fea15c244a1f8d4e8703b64b1"
+    },
+    {
+      "path": "test/public/malformed-join.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46d7c32c0531b4b9d64ed1ae384a2597870e03ad",
+      "size": 163840,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/46d7c32c0531b4b9d64ed1ae384a2597870e03ad"
+    },
+    {
+      "path": "test/public/missing-keyframe-labels.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49ecfccf292bcadf70861214ff421488a97a8cc0",
+      "size": 1915156,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/49ecfccf292bcadf70861214ff421488a97a8cc0"
+    },
+    {
+      "path": "test/public/missing-reorder-metadata-v1.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71c4d57885045a8d1c1aa17ffdc097b7e6277c8f",
+      "size": 1957764,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/71c4d57885045a8d1c1aa17ffdc097b7e6277c8f"
+    },
+    {
+      "path": "test/public/missing-tfdt.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ac3926b2f83a1ad6b64a0cd43e107c59f33d0b4",
+      "size": 13246,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/8ac3926b2f83a1ad6b64a0cd43e107c59f33d0b4"
+    },
+    {
+      "path": "test/public/mp3.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30ece637ab6e9d15b4f171dc195a9b61b30c93fc",
+      "size": 144196,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/30ece637ab6e9d15b4f171dc195a9b61b30c93fc"
+    },
+    {
+      "path": "test/public/multiple-aac-tracks.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8b04a12a14bac5a82a38a83245632f99f509450",
+      "size": 566566,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/f8b04a12a14bac5a82a38a83245632f99f509450"
+    },
+    {
+      "path": "test/public/no-aud.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bbd9568b05d981efd6c56c3647a354d5d01f77f",
+      "size": 1048576,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/4bbd9568b05d981efd6c56c3647a354d5d01f77f"
+    },
+    {
+      "path": "test/public/no-initial-keyframe.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c47e45f469b867a18e0bd866d5e9560f011cc31f",
+      "size": 536176,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/c47e45f469b867a18e0bd866d5e9560f011cc31f"
+    },
+    {
+      "path": "test/public/oversized-id3.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6996ea34c0f6ff785cdddafcea3da7c75d7e68a0",
+      "size": 83228,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/6996ea34c0f6ff785cdddafcea3da7c75d7e68a0"
+    },
+    {
+      "path": "test/public/pcm-stsc-not-first-chunk.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbb7a81d89fe560628e6255da58c6fac1dcebdd6",
+      "size": 481,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/bbb7a81d89fe560628e6255da58c6fac1dcebdd6"
+    },
+    {
+      "path": "test/public/red-image.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c1b03c832b417499f83543014ad6579e6ef89cf",
+      "size": 68865,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/3c1b03c832b417499f83543014ad6579e6ef89cf"
+    },
+    {
+      "path": "test/public/rotate-buck-bunny.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4903e7a6b78674bd837e88ab5244df182d56c3ea",
+      "size": 675899,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/4903e7a6b78674bd837e88ab5244df182d56c3ea"
+    },
+    {
+      "path": "test/public/sample.flac",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a44c93d5d1bf8657b4d6b62a9c87f4de125f1b4",
+      "size": 1428894,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/7a44c93d5d1bf8657b4d6b62a9c87f4de125f1b4"
+    },
+    {
+      "path": "test/public/sample3.aac",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ac801196dd31a4c9298b5667a2db65f3f8da594",
+      "size": 1758426,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/6ac801196dd31a4c9298b5667a2db65f3f8da594"
+    },
+    {
+      "path": "test/public/sar_2x1.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c4a74aa79da2085c79f2179b4958adf41d74488",
+      "size": 500280,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/3c4a74aa79da2085c79f2179b4958adf41d74488"
+    },
+    {
+      "path": "test/public/sps-only-sar-h264.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d96b0025d60473b65363deb90531741a386b3361",
+      "size": 1481,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/d96b0025d60473b65363deb90531741a386b3361"
+    },
+    {
+      "path": "test/public/sps-only-sar-hevc.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e39f7b556c14a38db858e7eacdc4abee0a44a07c",
+      "size": 3280,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/e39f7b556c14a38db858e7eacdc4abee0a44a07c"
+    },
+    {
+      "path": "test/public/tags-after-clusters.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fae4e29b3e772c1a4472cf82c347755f09bf6f4",
+      "size": 141,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/3fae4e29b3e772c1a4472cf82c347755f09bf6f4"
+    },
+    {
+      "path": "test/public/toothsome-dts-esds.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab704ed218638f277586db2e9370131264338d3d",
+      "size": 924963,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/ab704ed218638f277586db2e9370131264338d3d"
+    },
+    {
+      "path": "test/public/toothsome-dts.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7e1ade6c0c3053312d3a17a865459555cc75db9",
+      "size": 925165,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/f7e1ade6c0c3053312d3a17a865459555cc75db9"
+    },
+    {
+      "path": "test/public/transparency-faulty.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7538ad295c29bad75ea64b78eddb516e161e44b7",
+      "size": 1149150,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/7538ad295c29bad75ea64b78eddb516e161e44b7"
+    },
+    {
+      "path": "test/public/transparency.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c13062f7433968b25c8eabfdd4057e65fae0e08",
+      "size": 2876932,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/5c13062f7433968b25c8eabfdd4057e65fae0e08"
+    },
+    {
+      "path": "test/public/trim-buck-bunny-ffmpeg.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46f6623b29757c775abf6a5481626f5e0878c58c",
+      "size": 7286128,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/46f6623b29757c775abf6a5481626f5e0878c58c"
+    },
+    {
+      "path": "test/public/trunc-buck-bunny.mov",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9192cd7c3141f5eed09118da63a66ffec0cefd9b",
+      "size": 5000000,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/9192cd7c3141f5eed09118da63a66ffec0cefd9b"
+    },
+    {
+      "path": "test/public/video-h265.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46ead9c43ca4601427133945b5f7c54234070f34",
+      "size": 1449927,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/46ead9c43ca4601427133945b5f7c54234070f34"
+    },
+    {
+      "path": "test/public/video.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75b02b4109d51666b6527409174b04f45e546027",
+      "size": 1992800,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/75b02b4109d51666b6527409174b04f45e546027"
+    },
+    {
+      "path": "test/public/vorbis-eos.ogg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a32d4f0e61e1e550798f117c2e5f6bdd23c821d",
+      "size": 92218,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/9a32d4f0e61e1e550798f117c2e5f6bdd23c821d"
+    },
+    {
+      "path": "test/public/vp9-smpte170m.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06c83ef0c617f2f85de9d450bc1bb23f9355a0f5",
+      "size": 10178,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/06c83ef0c617f2f85de9d450bc1bb23f9355a0f5"
+    },
+    {
+      "path": "test/public/zero-timestamp-scale.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6afede9f68f15bb711b4e138636a4bdf114d1cf",
+      "size": 93,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/f6afede9f68f15bb711b4e138636a4bdf114d1cf"
+    },
+    {
+      "path": "test/public/zero-width-uint.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02d6f3987fa8d1eae576c17cf540d4ddeaeaeff2",
+      "size": 75,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/02d6f3987fa8d1eae576c17cf540d4ddeaeaeff2"
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "128e38ff54dc18936ba52e39454d35003d7b5357",
+      "size": 403,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/128e38ff54dc18936ba52e39454d35003d7b5357"
+    },
+    {
+      "path": "tsconfig.vite.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb5ae43e4d2b3337b1e79485792e0e01426ad1d2",
+      "size": 673,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/eb5ae43e4d2b3337b1e79485792e0e01426ad1d2"
+    },
+    {
+      "path": "tsconfig.vitest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ef6c27479958a7b0ce509fbb31c0d4c35dbd724",
+      "size": 1007,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/9ef6c27479958a7b0ce509fbb31c0d4c35dbd724"
+    },
+    {
+      "path": "tsdoc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0118bca12250416dd00abcf7c7fd8dba02f1bc2",
+      "size": 333,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/e0118bca12250416dd00abcf7c7fd8dba02f1bc2"
+    },
+    {
+      "path": "vite.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42b9fb88ba3a5311fc6fcc8cc222e5c8fdaf868f",
+      "size": 2006,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/42b9fb88ba3a5311fc6fcc8cc222e5c8fdaf868f"
+    },
+    {
+      "path": "vitest.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "228820900daed45b0d7f698ffd628c45c96b88c6",
+      "size": 1857,
+      "url": "https://api.github.com/repos/Vanilagy/mediabunny/git/blobs/228820900daed45b0d7f698ffd628c45c96b88c6"
+    }
+  ]
+}

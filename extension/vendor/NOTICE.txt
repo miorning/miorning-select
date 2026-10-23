@@ -1,0 +1,20 @@
+Mediabunny 1.62.0 by Vanilagy
+License: Mozilla Public License 2.0 (see mediabunny-1.62.0.LICENSE.txt).
+Original npm artifact: https://registry.npmjs.org/mediabunny/-/mediabunny-1.62.0.tgz
+Complete upstream source: https://github.com/Vanilagy/mediabunny/tree/03d524ffa1a1429616bcd4434f97714a77432bd7
+Complete source archive: https://codeload.github.com/Vanilagy/mediabunny/tar.gz/03d524ffa1a1429616bcd4434f97714a77432bd7
+Upstream repository: https://github.com/Vanilagy/mediabunny
+This package contains an unmodified upstream browser CJS bundle enclosed in a globalThis.MSMediaPackets wrapper.
+No remote code is fetched at runtime. Product-specific integration is in ../lossless.js.
+The wrapper is also made available under MPL-2.0. As part of this project's GPL-3.0-only Larger Work,
+the MPL-covered component and wrapper are additionally distributed under GPL-3.0 pursuant to MPL 2.0 section 3.3.
+Original MPL rights and notices are preserved. See ../../THIRD_PARTY_NOTICES.md and ../../third_party/
+in the source distribution for the original npm artifact, a verified build-source archive,
+pinned hashes and the offline reconstruction script. The build-source archive excludes upstream
+optional packages, tests, examples, documentation subdirectories and media. It retains root files,
+src, shared and scripts; its exact file list and Git blob hashes are supplied.
+
+中文：上游组件及本项目包装保留 MPL-2.0 许可。作为本项目 GPL-3.0-only Larger Work 的组成部分，
+依据 MPL 2.0 第 3.3 节同时按 GPL-3.0 分发。npm 包不含完整构建源码；上游构建源码另附于源码包的
+third_party 目录，保留根文件及 src、shared、scripts，排除可选编解码器、测试、示例和媒体。详细文件范围、许可、固定哈希和
+离线重建方法见源码包内说明。上方官方完整提交归档链接可获取被排除的媒体。

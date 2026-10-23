@@ -1,0 +1,2209 @@
+{
+  "commit": "03d524ffa1a1429616bcd4434f97714a77432bd7",
+  "selection": "Core Mediabunny source only: all root files, src/**, shared/** and scripts/**. Optional packages/** codecs, tests, examples, documentation subdirectories and media are excluded. Each retained file is unmodified and verified against its Git blob SHA-1. This is not a full repository archive.",
+  "included": [
+    {
+      "path": ".editorconfig",
+      "gitBlobSha1": "dae4e7be6d143d86c21d141445c73897a435a6fe",
+      "bytes": 188
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "10438667783087800af1f5cf90ecb486a8d88137",
+      "bytes": 243
+    },
+    {
+      "path": "AGENTS.md",
+      "gitBlobSha1": "fa3e8d6dbb56906e1f004ed1b70fa9234da96cea",
+      "bytes": 81
+    },
+    {
+      "path": "CLAUDE.md",
+      "gitBlobSha1": "66377fca88035f7ebddc7ed26b0f3c302d6ab0b8",
+      "bytes": 617
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "gitBlobSha1": "b0a91ac891cbfe57193abc501ee75ac0bb256924",
+      "bytes": 2535
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "d0a1fa1482eea82e19510e7920cbe3a03e41f691",
+      "bytes": 16726
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "a3cc280b27507f462b413d4dfe14b54e8170b57c",
+      "bytes": 9979
+    },
+    {
+      "path": "api-extractor.json",
+      "gitBlobSha1": "662a706e1c0ae1fd99804dee4f1b8eaae94ce06b",
+      "bytes": 714
+    },
+    {
+      "path": "eslint.config.mjs",
+      "gitBlobSha1": "3c240225a80712903ceddd0b25910845969c17fa",
+      "bytes": 1526
+    },
+    {
+      "path": "package-lock.json",
+      "gitBlobSha1": "5e791a2fa1eb2283f7ad75a33b1318acff3b77cd",
+      "bytes": 464558
+    },
+    {
+      "path": "package.json",
+      "gitBlobSha1": "603c71816a7e9b8a9c78c75c7c2c167468fd8d18",
+      "bytes": 4625
+    },
+    {
+      "path": "scripts/add-import-extensions.ts",
+      "gitBlobSha1": "a0d7b11b45d60b263579789606c705dcdede2ef6",
+      "bytes": 1058
+    },
+    {
+      "path": "scripts/build.sh",
+      "gitBlobSha1": "dec13899a590745df16968bf1a8ecb783aa698e7",
+      "bytes": 3089
+    },
+    {
+      "path": "scripts/bundle.ts",
+      "gitBlobSha1": "43633fd517cfd5391ef4fd78de8e6952453cfbd7",
+      "bytes": 6790
+    },
+    {
+      "path": "scripts/check-docblocks.ts",
+      "gitBlobSha1": "22586f9a13fbdbca0960cd2f71a33e91022e61c6",
+      "bytes": 5152
+    },
+    {
+      "path": "scripts/check.sh",
+      "gitBlobSha1": "40eef515cb0a4e311925d4b2f86eb105afdda117",
+      "bytes": 612
+    },
+    {
+      "path": "scripts/ensure-license-headers.ts",
+      "gitBlobSha1": "bcb93e2f5879422b4593aef232c4358c1afa95e8",
+      "bytes": 1817
+    },
+    {
+      "path": "scripts/esbuild/inlined-workers.ts",
+      "gitBlobSha1": "c384aec1e8945799c8fb3613bbbc513ac75128b6",
+      "bytes": 2891
+    },
+    {
+      "path": "scripts/generate-api-docs.ts",
+      "gitBlobSha1": "319daf5bbdbd6388977ac01b8799c9fce419595f",
+      "bytes": 88198
+    },
+    {
+      "path": "scripts/sync-workspace-deps.ts",
+      "gitBlobSha1": "171dc2609cd38b7dfc29789a0aaec537ded547db",
+      "bytes": 1292
+    },
+    {
+      "path": "scripts/tsconfig.json",
+      "gitBlobSha1": "311dc283e96dfeb19a82531d28e635b689754121",
+      "bytes": 173
+    },
+    {
+      "path": "scripts/write-version.ts",
+      "gitBlobSha1": "bc864072a3b281e3288a8631daa539ab8e9c8687",
+      "bytes": 945
+    },
+    {
+      "path": "shared/aac-misc.ts",
+      "gitBlobSha1": "e1ecaf7c33126ff60cf94e92ccc375c3c2893f5e",
+      "bytes": 7099
+    },
+    {
+      "path": "shared/ac3-misc.ts",
+      "gitBlobSha1": "fa3145fee2c3a75509443a73a8d4ea1172610a23",
+      "bytes": 506
+    },
+    {
+      "path": "shared/bitstream.ts",
+      "gitBlobSha1": "7baa2b276645325c7527ced643f225f94aa9ed50",
+      "bytes": 1949
+    },
+    {
+      "path": "shared/dts-misc.ts",
+      "gitBlobSha1": "d85cf8df0ee540b7c05565cf57928183b2d62e47",
+      "bytes": 1299
+    },
+    {
+      "path": "shared/mp3-misc.ts",
+      "gitBlobSha1": "6ff3a8c8b3dc403571d984a9e2c126a0f58bfb26",
+      "bytes": 5843
+    },
+    {
+      "path": "shared/tsconfig.json",
+      "gitBlobSha1": "8e005134c0e7cbe5dd80a6ee1d2c90c6bb2b266d",
+      "bytes": 127
+    },
+    {
+      "path": "src/adts/adts-demuxer.ts",
+      "gitBlobSha1": "96423e265797088383e4edac82e939139a0a71fe",
+      "bytes": 9142
+    },
+    {
+      "path": "src/adts/adts-muxer.ts",
+      "gitBlobSha1": "1e33ee7986aef0154098c5cde6abb18554626ad9",
+      "bytes": 3758
+    },
+    {
+      "path": "src/adts/adts-reader.ts",
+      "gitBlobSha1": "3504b59d05998692107d94ec1fee9479101c3426",
+      "bytes": 2629
+    },
+    {
+      "path": "src/aes.ts",
+      "gitBlobSha1": "50bf2b28abf557414887522ec9317897dedeb326",
+      "bytes": 9465
+    },
+    {
+      "path": "src/codec-data.ts",
+      "gitBlobSha1": "2edf2ad2654e10aceb3015193f86a84dbe50f653",
+      "bytes": 117387
+    },
+    {
+      "path": "src/codec.ts",
+      "gitBlobSha1": "ab9d1bfda331b2397a4f8c21561ddae1bedc521d",
+      "bytes": 55295
+    },
+    {
+      "path": "src/conversion.ts",
+      "gitBlobSha1": "63c45e01f458c800ff1c9ddf557117e137b65cbb",
+      "bytes": 88406
+    },
+    {
+      "path": "src/custom-coder.ts",
+      "gitBlobSha1": "4488a3993b2feb9112fc25d9ab82862d93c6f0bc",
+      "bytes": 8694
+    },
+    {
+      "path": "src/decode.ts",
+      "gitBlobSha1": "62f5c5e728598cfeacfe8f765f6172e1f75d3240",
+      "bytes": 8522
+    },
+    {
+      "path": "src/demuxer.ts",
+      "gitBlobSha1": "36a746cc1b8bb381bf987d90ff313c14b1e494ee",
+      "bytes": 1224
+    },
+    {
+      "path": "src/encode.ts",
+      "gitBlobSha1": "10517895c8b3b2a592887623cf9bd1ac62d7a1cb",
+      "bytes": 51949
+    },
+    {
+      "path": "src/flac/flac-demuxer.ts",
+      "gitBlobSha1": "6f339d52235ad7ca3111106ad4c6ab1f28aca92c",
+      "bytes": 22410
+    },
+    {
+      "path": "src/flac/flac-misc.ts",
+      "gitBlobSha1": "f440d3d2492dcaa559c80985e7437177cab72aef",
+      "bytes": 4190
+    },
+    {
+      "path": "src/flac/flac-muxer.ts",
+      "gitBlobSha1": "411240c6beeb6d2d856cbed2b98562293fa17372",
+      "bytes": 11983
+    },
+    {
+      "path": "src/hls/hls-demuxer.ts",
+      "gitBlobSha1": "82c4571a5a91a29eeb9210020f81e043c94e0250",
+      "bytes": 30000
+    },
+    {
+      "path": "src/hls/hls-misc.ts",
+      "gitBlobSha1": "1c5c3d54ce3a830cf1463a4c700240bda2c8bbbb",
+      "bytes": 6150
+    },
+    {
+      "path": "src/hls/hls-muxer.ts",
+      "gitBlobSha1": "d06b9ff52a1634d56bd3541f72d29dfd3f332374",
+      "bytes": 53542
+    },
+    {
+      "path": "src/hls/hls-segmented-input.ts",
+      "gitBlobSha1": "2db471369c53e948e26095656ec4fc5345b3dbbc",
+      "bytes": 25471
+    },
+    {
+      "path": "src/id3.ts",
+      "gitBlobSha1": "421a0e134b6cd17dbee0d100d670fc3a870a3b56",
+      "bytes": 29108
+    },
+    {
+      "path": "src/index.ts",
+      "gitBlobSha1": "798c192914a3d02ea304796fff83678336412f80",
+      "bytes": 7208
+    },
+    {
+      "path": "src/input-format.ts",
+      "gitBlobSha1": "9d022451cf62eb38c9af1ddedb28ed296f2925e7",
+      "bytes": 22649
+    },
+    {
+      "path": "src/input-track.ts",
+      "gitBlobSha1": "d26a0316dbcea3b8971641ba95ed0fb767d9f814",
+      "bytes": 52567
+    },
+    {
+      "path": "src/input.ts",
+      "gitBlobSha1": "76ff20b394b21a4460e8e96b0ca32a9566bb8ece",
+      "bytes": 18274
+    },
+    {
+      "path": "src/isobmff/isobmff-boxes.ts",
+      "gitBlobSha1": "24a1e43d3b14dc0a563348d59689c732b7c233fc",
+      "bytes": 62728
+    },
+    {
+      "path": "src/isobmff/isobmff-demuxer.ts",
+      "gitBlobSha1": "9aa50e05dba48e3460567bf6df37ed9414c2116e",
+      "bytes": 136752
+    },
+    {
+      "path": "src/isobmff/isobmff-misc.ts",
+      "gitBlobSha1": "9f67eefb0c49e4363024878205c3fe3a3ec1f10b",
+      "bytes": 2426
+    },
+    {
+      "path": "src/isobmff/isobmff-muxer.ts",
+      "gitBlobSha1": "6af8668c822d2baece58fbe83201b71c360060f9",
+      "bytes": 56018
+    },
+    {
+      "path": "src/isobmff/isobmff-reader.ts",
+      "gitBlobSha1": "c44376aec6b2473173d30ba3705347af1154d9c9",
+      "bytes": 3907
+    },
+    {
+      "path": "src/logging.ts",
+      "gitBlobSha1": "a5c6e3c0d73a1c53f9095bb56e4773bc71fad97a",
+      "bytes": 3141
+    },
+    {
+      "path": "src/matroska/ebml.ts",
+      "gitBlobSha1": "b4dfa3c3f22aa2011e5a69796287db0760a6adb3",
+      "bytes": 19989
+    },
+    {
+      "path": "src/matroska/matroska-demuxer.ts",
+      "gitBlobSha1": "29a845af4f1faff4f5b58c07f0e45e7afdf1eb94",
+      "bytes": 86160
+    },
+    {
+      "path": "src/matroska/matroska-misc.ts",
+      "gitBlobSha1": "4720fc959d2f08860f21c306a44dd61e06f82383",
+      "bytes": 766
+    },
+    {
+      "path": "src/matroska/matroska-muxer.ts",
+      "gitBlobSha1": "a0f5fcc578d95464e1b25560671d0983ec70c0b3",
+      "bytes": 45314
+    },
+    {
+      "path": "src/media-sink.ts",
+      "gitBlobSha1": "b62addeedd9c2eadc48a71d6a10084c5a457818c",
+      "bytes": 90990
+    },
+    {
+      "path": "src/media-source.ts",
+      "gitBlobSha1": "1f7f5d6739d15f9e85e86c22a66619de02704bc9",
+      "bytes": 105503
+    },
+    {
+      "path": "src/metadata.ts",
+      "gitBlobSha1": "d452b855b35e84ef670f68a667d490d8e7f336ad",
+      "bytes": 14189
+    },
+    {
+      "path": "src/misc.ts",
+      "gitBlobSha1": "dfd5c5f64b7247e366274ea4b3a017b26670ae1f",
+      "bytes": 47476
+    },
+    {
+      "path": "src/mp3/mp3-demuxer.ts",
+      "gitBlobSha1": "a89d22203717ff18cfad14df1696dd7032dd429d",
+      "bytes": 11762
+    },
+    {
+      "path": "src/mp3/mp3-muxer.ts",
+      "gitBlobSha1": "4fc1763f721a153f84004af6298495aff8f1730b",
+      "bytes": 7932
+    },
+    {
+      "path": "src/mp3/mp3-reader.ts",
+      "gitBlobSha1": "29c4689fd3ff535b058c62bb0c211d662c52adb8",
+      "bytes": 2004
+    },
+    {
+      "path": "src/mp3/mp3-writer.ts",
+      "gitBlobSha1": "bdc9eed4689bdf9af80def952d90de8e05fd4e98",
+      "bytes": 3204
+    },
+    {
+      "path": "src/mpeg-ts/mpeg-ts-demuxer.ts",
+      "gitBlobSha1": "990b91efee4aea83f1b1467d0be7be38d237122d",
+      "bytes": 84495
+    },
+    {
+      "path": "src/mpeg-ts/mpeg-ts-misc.ts",
+      "gitBlobSha1": "a7834a9eae881ad2720e8073b3f1ac70cbe70d31",
+      "bytes": 1032
+    },
+    {
+      "path": "src/mpeg-ts/mpeg-ts-muxer.ts",
+      "gitBlobSha1": "4edb9430a2194df9394f9ed5668bf30c965251cb",
+      "bytes": 25089
+    },
+    {
+      "path": "src/muxer.ts",
+      "gitBlobSha1": "894dab67a3dc2c4c816c01e9e28af15b6d7b6f3d",
+      "bytes": 2513
+    },
+    {
+      "path": "src/node.ts",
+      "gitBlobSha1": "3ed1aa39028b0575f7d97c5db5ac03549819c9a5",
+      "bytes": 389
+    },
+    {
+      "path": "src/ogg/ogg-demuxer.ts",
+      "gitBlobSha1": "5d71918d8f10ba58a0cd16be2c549ca0dc0cdce7",
+      "bytes": 35138
+    },
+    {
+      "path": "src/ogg/ogg-misc.ts",
+      "gitBlobSha1": "c7e002a778236326603bfe0af91fbd4ffa03e00d",
+      "bytes": 3168
+    },
+    {
+      "path": "src/ogg/ogg-muxer.ts",
+      "gitBlobSha1": "a49cc74d6c0135fe158b2b4440380954477e34ea",
+      "bytes": 17450
+    },
+    {
+      "path": "src/ogg/ogg-reader.ts",
+      "gitBlobSha1": "a84e10aebaac7fc5e6927bd9566a259a2fef3b88",
+      "bytes": 2955
+    },
+    {
+      "path": "src/output-format.ts",
+      "gitBlobSha1": "029e79acc77c4054f715bf72178a4c608c80e03d",
+      "bytes": 44805
+    },
+    {
+      "path": "src/output.ts",
+      "gitBlobSha1": "10e79085e8aa16b7f09a6b237390d7ba5e877610",
+      "bytes": 35025
+    },
+    {
+      "path": "src/packet.ts",
+      "gitBlobSha1": "f345b5d8e3308ab356e4d8766d00c93ff78a9870",
+      "bytes": 10304
+    },
+    {
+      "path": "src/pcm.ts",
+      "gitBlobSha1": "e6fe85e03ecd8af33b5ee0601dc71c273b61dc55",
+      "bytes": 2203
+    },
+    {
+      "path": "src/reader.ts",
+      "gitBlobSha1": "bb8402ace29132d8bce1167ccbacea9b8bb44a14",
+      "bytes": 9544
+    },
+    {
+      "path": "src/resample.ts",
+      "gitBlobSha1": "8bf760397e039e466fcca7d8dc1ef58a33fc3a3f",
+      "bytes": 12817
+    },
+    {
+      "path": "src/sample.ts",
+      "gitBlobSha1": "9f3b5217715d6215db8d58700e18b3912e8327cb",
+      "bytes": 117009
+    },
+    {
+      "path": "src/segmented-input.ts",
+      "gitBlobSha1": "d2316df9f3d425a711e1765a41ab7ee5ab03b4e1",
+      "bytes": 19110
+    },
+    {
+      "path": "src/source.ts",
+      "gitBlobSha1": "a31426913e50f49c93650b88daef8d66c2b642e1",
+      "bytes": 87465
+    },
+    {
+      "path": "src/subtitles.ts",
+      "gitBlobSha1": "2ae1e508963ed77f22c981e36f9453fc05a4c3f3",
+      "bytes": 3715
+    },
+    {
+      "path": "src/target.ts",
+      "gitBlobSha1": "78da89adf70a90ec7b67a7361a4629a9fc613b4b",
+      "bytes": 24538
+    },
+    {
+      "path": "src/tsconfig.json",
+      "gitBlobSha1": "8acb1953cb2d95e1f2ae2e45e950df544d5d5a17",
+      "bytes": 270
+    },
+    {
+      "path": "src/version.ts",
+      "gitBlobSha1": "82f46998fddd5c2f220cc8f4047bc4016cfe30de",
+      "bytes": 440
+    },
+    {
+      "path": "src/wave/riff-writer.ts",
+      "gitBlobSha1": "7aca89bbe5ab672f729d3d1d18ac7dfdc789da03",
+      "bytes": 1016
+    },
+    {
+      "path": "src/wave/wave-demuxer.ts",
+      "gitBlobSha1": "94024b147806136999998dcc5c40f9c9281ec568",
+      "bytes": 16293
+    },
+    {
+      "path": "src/wave/wave-muxer.ts",
+      "gitBlobSha1": "c13929d2b4acf0d2bfcc7395ec008ff58731a440",
+      "bytes": 10726
+    },
+    {
+      "path": "src/writer.ts",
+      "gitBlobSha1": "d6e37317557fd61a3ddbe8fcaabb26e1aa16d81a",
+      "bytes": 3034
+    },
+    {
+      "path": "tsconfig.json",
+      "gitBlobSha1": "128e38ff54dc18936ba52e39454d35003d7b5357",
+      "bytes": 403
+    },
+    {
+      "path": "tsconfig.vite.json",
+      "gitBlobSha1": "eb5ae43e4d2b3337b1e79485792e0e01426ad1d2",
+      "bytes": 673
+    },
+    {
+      "path": "tsconfig.vitest.json",
+      "gitBlobSha1": "9ef6c27479958a7b0ce509fbb31c0d4c35dbd724",
+      "bytes": 1007
+    },
+    {
+      "path": "tsdoc.json",
+      "gitBlobSha1": "e0118bca12250416dd00abcf7c7fd8dba02f1bc2",
+      "bytes": 333
+    },
+    {
+      "path": "vite.config.ts",
+      "gitBlobSha1": "42b9fb88ba3a5311fc6fcc8cc222e5c8fdaf868f",
+      "bytes": 2006
+    },
+    {
+      "path": "vitest.config.ts",
+      "gitBlobSha1": "228820900daed45b0d7f698ffd628c45c96b88c6",
+      "bytes": 1857
+    }
+  ],
+  "excluded": [
+    {
+      "path": ".github/FUNDING.yml",
+      "gitBlobSha1": "6af42bab66b2dbefd060ef75a4fcf975cdf98f99",
+      "bytes": 822
+    },
+    {
+      "path": ".github/workflows/build-check.yml",
+      "gitBlobSha1": "44dafce28f141ba99bef36c5b569e9de2d878fab",
+      "bytes": 610
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "gitBlobSha1": "3f4fbc7a44f347bf8495d897e6fd4e7831853346",
+      "bytes": 577
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "gitBlobSha1": "550b77c10e29e6099ccfb1e4365db918696e7c8a",
+      "bytes": 4899
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "gitBlobSha1": "c689d63908562461ff661a242729c21b792a83d0",
+      "bytes": 525
+    },
+    {
+      "path": ".vscode/settings.json",
+      "gitBlobSha1": "a8e60eac5f3d6ea0fba812af53078c719fea5ca5",
+      "bytes": 231
+    },
+    {
+      "path": "dev/CantinaBand60.wav",
+      "gitBlobSha1": "47842ede02633e9120466c55f9f4a3542ea9e529",
+      "bytes": 2646044
+    },
+    {
+      "path": "dev/convert.html",
+      "gitBlobSha1": "a4003b153ef4e491ed70ecfa43e952a618932b41",
+      "bytes": 6201
+    },
+    {
+      "path": "dev/demux.html",
+      "gitBlobSha1": "6ff4c1ac886737a973d63ad54367dabc3aa71787",
+      "bytes": 35299
+    },
+    {
+      "path": "dev/live.html",
+      "gitBlobSha1": "23ee6ff2509a55f4140f6f7bd899d2eb10085bcb",
+      "bytes": 2284
+    },
+    {
+      "path": "dev/mux.html",
+      "gitBlobSha1": "4d24b169a62cdc26baff4a9ba45b77cb0d26dd34",
+      "bytes": 6043
+    },
+    {
+      "path": "dev/player.html",
+      "gitBlobSha1": "c499d9920b5f7df10c1421ec966bab6a5245cba9",
+      "bytes": 6419
+    },
+    {
+      "path": "docs/.vitepress/config.mts",
+      "gitBlobSha1": "24dbe67b992c8590ac0c6589623be1c5cddbcb18",
+      "bytes": 10285
+    },
+    {
+      "path": "docs/.vitepress/m3u8-grammar.json",
+      "gitBlobSha1": "6a672f070ed0f6ec4723b5fecc235efa7d0a4e45",
+      "bytes": 2353
+    },
+    {
+      "path": "docs/.vitepress/theme/index.ts",
+      "gitBlobSha1": "a7d3dd785d47763d8b9fb122ae19060f5fee7bd3",
+      "bytes": 163
+    },
+    {
+      "path": "docs/.vitepress/theme/theme.css",
+      "gitBlobSha1": "4cb74994c17356d2076f9fe27e3b5d2c2e82bc5e",
+      "bytes": 1207
+    },
+    {
+      "path": "docs/api-config.json",
+      "gitBlobSha1": "39b9878d6f647138690a87f1ea9180d17f764e21",
+      "bytes": 2165
+    },
+    {
+      "path": "docs/assets/big-buck-bunny-trimmed.mp4",
+      "gitBlobSha1": "392b27638ba5feaae53485bf939185fe523dc6c3",
+      "bytes": 10044718
+    },
+    {
+      "path": "docs/assets/codec-soup.svg",
+      "gitBlobSha1": "22969f21304014848e104be4fb295c970ffa2e46",
+      "bytes": 152056
+    },
+    {
+      "path": "docs/assets/download-icon.svg",
+      "gitBlobSha1": "4158264eceed98581197a0201d09c64f30c570e4",
+      "bytes": 278
+    },
+    {
+      "path": "docs/assets/fluent-emoji--heart-suit.svg",
+      "gitBlobSha1": "7284a484bf79f8a7014b8348ee46909da85b77fd",
+      "bytes": 4187
+    },
+    {
+      "path": "docs/assets/fullscreen-icon.svg",
+      "gitBlobSha1": "95408a4fd48afb339e563ecc916f9128af1e675b",
+      "bytes": 339
+    },
+    {
+      "path": "docs/assets/german-live-tv.png",
+      "gitBlobSha1": "77be209c32c60046615818b00f1550a5c1e63f8f",
+      "bytes": 2682882
+    },
+    {
+      "path": "docs/assets/github-mark.svg",
+      "gitBlobSha1": "37fa923df33faeccc4b55228046b5b079a82926d",
+      "bytes": 963
+    },
+    {
+      "path": "docs/assets/inspiring-io.svg",
+      "gitBlobSha1": "4c1cc4a466d2fd6cf35f2fba7e56845012fa3a8d",
+      "bytes": 53430
+    },
+    {
+      "path": "docs/assets/mechabunny.svg",
+      "gitBlobSha1": "a931796547f10b66cac6a5f1d95076dde71237d8",
+      "bytes": 81981
+    },
+    {
+      "path": "docs/assets/pause-icon.svg",
+      "gitBlobSha1": "053c9d4ecdee858d6e4f8d50f072b47aed46fc5d",
+      "bytes": 283
+    },
+    {
+      "path": "docs/assets/planar_interleaved.svg",
+      "gitBlobSha1": "45f08be0c584ca9800aac13110e1c5abf1418cc2",
+      "bytes": 31984
+    },
+    {
+      "path": "docs/assets/play-icon.svg",
+      "gitBlobSha1": "f6130c927c8f7320711336b6ccc28ce655e43959",
+      "bytes": 207
+    },
+    {
+      "path": "docs/assets/ri--heart-add-fill.svg",
+      "gitBlobSha1": "9309b3ed657d4ecd5fb83ebf845ba10018f12412",
+      "bytes": 314
+    },
+    {
+      "path": "docs/assets/volume-0-icon.svg",
+      "gitBlobSha1": "4552e09d965ec58a3e852d96d41f718ef4112bfa",
+      "bytes": 359
+    },
+    {
+      "path": "docs/assets/volume-1-icon.svg",
+      "gitBlobSha1": "6efb112e7ea4e1c2190457618a772f88117b126d",
+      "bytes": 378
+    },
+    {
+      "path": "docs/assets/volume-2-icon.svg",
+      "gitBlobSha1": "8c412e0dab6f3c5cd513066821ddfb475d6c4a3a",
+      "bytes": 409
+    },
+    {
+      "path": "docs/assets/volume-off-icon.svg",
+      "gitBlobSha1": "0c2ff1c3e8588501e9bc672639190c878352a7e6",
+      "bytes": 437
+    },
+    {
+      "path": "docs/assets/volume-x-icon.svg",
+      "gitBlobSha1": "0be0527f8c94710c33c20348ace5ad3a076dcd41",
+      "bytes": 377
+    },
+    {
+      "path": "docs/blog.data.ts",
+      "gitBlobSha1": "980fd820f9793701c8f025a652f848a38dce66dc",
+      "bytes": 99
+    },
+    {
+      "path": "docs/blog.md",
+      "gitBlobSha1": "c385c611b4529fa80f755a79d463fce663b9d2be",
+      "bytes": 1023
+    },
+    {
+      "path": "docs/blog/mediabunny-now-supports-hls.md",
+      "gitBlobSha1": "49fc127d28f065cfa88ac3902a677450303088e3",
+      "bytes": 11725
+    },
+    {
+      "path": "docs/blog/quantizer-support.md",
+      "gitBlobSha1": "80696d5c89cb5fee2ed358c19cb9dc06dd338faa",
+      "bytes": 5099
+    },
+    {
+      "path": "docs/codec-registry/aac.md",
+      "gitBlobSha1": "e53b0abecaba8da403dae2a79acbbe84fa85e5e6",
+      "bytes": 2191
+    },
+    {
+      "path": "docs/codec-registry/ac3.md",
+      "gitBlobSha1": "08f97ba4e9f5714d704ca91eaf204dc1c5e97430",
+      "bytes": 965
+    },
+    {
+      "path": "docs/codec-registry/alaw.md",
+      "gitBlobSha1": "29a32f45ad7d51d74d4234aea5f6c46243f31d9c",
+      "bytes": 894
+    },
+    {
+      "path": "docs/codec-registry/av1.md",
+      "gitBlobSha1": "5804a7ce8f99bffff33d95247ce2314244c19a69",
+      "bytes": 1382
+    },
+    {
+      "path": "docs/codec-registry/avc.md",
+      "gitBlobSha1": "0c67cb2eebc19b06a3b3739b996750eae1352451",
+      "bytes": 2248
+    },
+    {
+      "path": "docs/codec-registry/dts.md",
+      "gitBlobSha1": "88ef8b298d066a45cc79c940a422aa21006c783d",
+      "bytes": 1565
+    },
+    {
+      "path": "docs/codec-registry/eac3.md",
+      "gitBlobSha1": "6d94d1bbf8d35c1de385219c7e40e6591cf43b6f",
+      "bytes": 952
+    },
+    {
+      "path": "docs/codec-registry/flac.md",
+      "gitBlobSha1": "41daf9d7b82aa5dc4ca8df7c9a87595adb5789f5",
+      "bytes": 987
+    },
+    {
+      "path": "docs/codec-registry/hevc.md",
+      "gitBlobSha1": "0928c66f3d3b676affd5857dbfb681738582e929",
+      "bytes": 2241
+    },
+    {
+      "path": "docs/codec-registry/mp3.md",
+      "gitBlobSha1": "c4ef4528be94e922adbc0375ba7806f0ec2bd292",
+      "bytes": 812
+    },
+    {
+      "path": "docs/codec-registry/opus.md",
+      "gitBlobSha1": "45f5da269a5f8d57f058574a1d4187f97c9c52f4",
+      "bytes": 841
+    },
+    {
+      "path": "docs/codec-registry/overview.md",
+      "gitBlobSha1": "85e5b27a2208a09a7819f85446bd94d7e5422fd3",
+      "bytes": 1130
+    },
+    {
+      "path": "docs/codec-registry/pcm.md",
+      "gitBlobSha1": "dc6b28e7047622cbaeacf40ba862301d51f5a557",
+      "bytes": 1561
+    },
+    {
+      "path": "docs/codec-registry/prores.md",
+      "gitBlobSha1": "6a53984accfeb3302e94603495db82a28e74d056",
+      "bytes": 1079
+    },
+    {
+      "path": "docs/codec-registry/ulaw.md",
+      "gitBlobSha1": "d95a8b7ad284d0abf395fd53ee923a29eed71f13",
+      "bytes": 897
+    },
+    {
+      "path": "docs/codec-registry/vorbis.md",
+      "gitBlobSha1": "65252adc56ebfd9b2fa210178254f984e722f5b8",
+      "bytes": 1119
+    },
+    {
+      "path": "docs/codec-registry/vp8.md",
+      "gitBlobSha1": "f55f7c1682ac530a995d8094af5125ac6e972a53",
+      "bytes": 947
+    },
+    {
+      "path": "docs/codec-registry/vp9.md",
+      "gitBlobSha1": "8096b4b010e3e35474fba7c39757590df9a6271a",
+      "bytes": 1521
+    },
+    {
+      "path": "docs/components/BlogAuthor.vue",
+      "gitBlobSha1": "ccf43fd8b4b742f63c74ccb95a4f4bf5b204e904",
+      "bytes": 776
+    },
+    {
+      "path": "docs/examples.md",
+      "gitBlobSha1": "9b8cf342d7a5d02c2fa33650222ddca9306c3914",
+      "bytes": 1938
+    },
+    {
+      "path": "docs/guide/converting-media-files.md",
+      "gitBlobSha1": "c839d14d1c9d1d17d9c227c974de27df41edce93",
+      "bytes": 28532
+    },
+    {
+      "path": "docs/guide/extensions/aac-encoder.md",
+      "gitBlobSha1": "5bc323741bc1c8b6ebed658f46be89aeca72d7a3",
+      "bytes": 2588
+    },
+    {
+      "path": "docs/guide/extensions/ac3.md",
+      "gitBlobSha1": "35bfad001ce2f2316938f8fd19b9c74e2f8b9562",
+      "bytes": 1637
+    },
+    {
+      "path": "docs/guide/extensions/dts.md",
+      "gitBlobSha1": "90f0161ea781e3cbbafbea7263772112b6a7afb4",
+      "bytes": 1571
+    },
+    {
+      "path": "docs/guide/extensions/flac-encoder.md",
+      "gitBlobSha1": "c36af5dbc90d9bb6b6f60689b3a85fae748f5f1b",
+      "bytes": 2539
+    },
+    {
+      "path": "docs/guide/extensions/mp3-encoder.md",
+      "gitBlobSha1": "6965c56cbb6608327077fda19fa55892d3516aa5",
+      "bytes": 3771
+    },
+    {
+      "path": "docs/guide/extensions/prores.md",
+      "gitBlobSha1": "3d1cf0f87dd13042330f8e8dd6a631eb1d17de2b",
+      "bytes": 2198
+    },
+    {
+      "path": "docs/guide/extensions/server.md",
+      "gitBlobSha1": "e79904c2268d81ffabbd24151143896af3ba5b7c",
+      "bytes": 12148
+    },
+    {
+      "path": "docs/guide/input-formats.md",
+      "gitBlobSha1": "fc47e3e39b384cfc94d924a0b1b85f81f6bc149a",
+      "bytes": 3720
+    },
+    {
+      "path": "docs/guide/installation.md",
+      "gitBlobSha1": "67abf2ad9d15d802f0a94506965d365262695baf",
+      "bytes": 1386
+    },
+    {
+      "path": "docs/guide/introduction.md",
+      "gitBlobSha1": "d2ec32aff270dbdbf84b49bde338510f44a69a9e",
+      "bytes": 6822
+    },
+    {
+      "path": "docs/guide/media-sinks.md",
+      "gitBlobSha1": "7e5fae4436d59e8b68dc0d54eb96593654305f52",
+      "bytes": 21714
+    },
+    {
+      "path": "docs/guide/media-sources.md",
+      "gitBlobSha1": "29edec7abb0384b8f768f2976f6a0e14f4fdd1e7",
+      "bytes": 24609
+    },
+    {
+      "path": "docs/guide/output-formats.md",
+      "gitBlobSha1": "675c7a1fc48418bd3bb8d137fa3890cddeea6329",
+      "bytes": 19946
+    },
+    {
+      "path": "docs/guide/packets-and-samples.md",
+      "gitBlobSha1": "6bce1fb18fca81569cb9e02c2cb46eab6cf6e575",
+      "bytes": 24023
+    },
+    {
+      "path": "docs/guide/quick-start.md",
+      "gitBlobSha1": "d70fbfe1f83568668bb817f82c8479d4b680fd09",
+      "bytes": 16662
+    },
+    {
+      "path": "docs/guide/reading-hls.md",
+      "gitBlobSha1": "ca45467612e2967dd58e4fccc2df12f0d4e0a535",
+      "bytes": 15202
+    },
+    {
+      "path": "docs/guide/reading-media-files.md",
+      "gitBlobSha1": "e6660139198ffded8e6e16f247ebf6216fbddcce",
+      "bytes": 35926
+    },
+    {
+      "path": "docs/guide/supported-formats-and-codecs.md",
+      "gitBlobSha1": "310914829a43bcc27c78128e4764de475e4ba518",
+      "bytes": 19878
+    },
+    {
+      "path": "docs/guide/writing-hls.md",
+      "gitBlobSha1": "b22ee9b15caede8f6b69285a4fb743c11699a2cd",
+      "bytes": 22864
+    },
+    {
+      "path": "docs/guide/writing-media-files.md",
+      "gitBlobSha1": "b371a2ab7fb1dc96a867f43eef91b4167b655a4c",
+      "bytes": 22960
+    },
+    {
+      "path": "docs/index.md",
+      "gitBlobSha1": "b0040f22e51f62636728501cf3ec56436d782e63",
+      "bytes": 24157
+    },
+    {
+      "path": "docs/llms.md",
+      "gitBlobSha1": "a64716d67c604d1795cf54f079dcf6b9e6412c44",
+      "bytes": 1229
+    },
+    {
+      "path": "docs/public/avatars/konstantin.png",
+      "gitBlobSha1": "49ba326a6d8eb2ef68a5680860a3bf64f83daf0a",
+      "bytes": 337020
+    },
+    {
+      "path": "docs/public/avatars/yonatan.jpeg",
+      "gitBlobSha1": "84aeca57ff03bb608b3f79a72e3a5377c330151c",
+      "bytes": 43810
+    },
+    {
+      "path": "docs/public/crf.png",
+      "gitBlobSha1": "b4c9dc79032318380a8a0dbe838a818caa336b0f",
+      "bytes": 200510
+    },
+    {
+      "path": "docs/public/mediabunny-logo.png",
+      "gitBlobSha1": "f63b585fb608adf21fba085512939b748139ad72",
+      "bytes": 69009
+    },
+    {
+      "path": "docs/public/mediabunny-logo.svg",
+      "gitBlobSha1": "609b946f964e9f4ad3599d3aca79990344485922",
+      "bytes": 32414
+    },
+    {
+      "path": "docs/public/mediabunny-og-image.png",
+      "gitBlobSha1": "9f1f35e35e16f55ad83d889aae978e236c30d6de",
+      "bytes": 355493
+    },
+    {
+      "path": "docs/public/mingcute--file-info-line.svg",
+      "gitBlobSha1": "ad90e0f822992dff4da3a3630679d11274061e5e",
+      "bytes": 985
+    },
+    {
+      "path": "docs/public/mingcute--file-zip-line.svg",
+      "gitBlobSha1": "33079186984ac405bf63d0c4bdb6e4f8f4daf27d",
+      "bytes": 1168
+    },
+    {
+      "path": "docs/public/mingcute--live-line.svg",
+      "gitBlobSha1": "c6ab20dd106c20710200ad7504ca8c6ef43ca396",
+      "bytes": 1183
+    },
+    {
+      "path": "docs/public/mingcute--magic-3-line.svg",
+      "gitBlobSha1": "4335d7ff3fc5b058eca837b469278170109b5395",
+      "bytes": 2024
+    },
+    {
+      "path": "docs/public/mingcute--microphone-line.svg",
+      "gitBlobSha1": "90668c4879c7285cc780b2f27a78c10235126982",
+      "bytes": 1204
+    },
+    {
+      "path": "docs/public/mingcute--photo-album-line.svg",
+      "gitBlobSha1": "2387bfcd127e2e4e6b76830c333a8d55ad697ea8",
+      "bytes": 1151
+    },
+    {
+      "path": "docs/public/mingcute--video-line.svg",
+      "gitBlobSha1": "47632cabe2c0ce51bf4ad7785ebf1db392ff6b30",
+      "bytes": 1544
+    },
+    {
+      "path": "docs/public/on-air.png",
+      "gitBlobSha1": "f5fc4b8267033ff9e3a36fca95d0d5eb55ced9e0",
+      "bytes": 310934
+    },
+    {
+      "path": "docs/public/robots.txt",
+      "gitBlobSha1": "32ad9f2a3d0f1d0f781c3d841198666cc1b6639a",
+      "bytes": 67
+    },
+    {
+      "path": "docs/public/sponsors/diffusionstudio.png",
+      "gitBlobSha1": "b9574662b2fd607951017b26803e974ed2bca557",
+      "bytes": 4039
+    },
+    {
+      "path": "docs/public/sponsors/elevenlabs.png",
+      "gitBlobSha1": "172016dd3f7f4b9aea24feccdf3a063819d1ff81",
+      "bytes": 13319
+    },
+    {
+      "path": "docs/public/sponsors/gling.svg",
+      "gitBlobSha1": "a37c4f1b19efa1c6c22ddd36040f172ba14bb754",
+      "bytes": 2147
+    },
+    {
+      "path": "docs/public/sponsors/jellypod.png",
+      "gitBlobSha1": "399f95db561b61896e9fc8051c1edc8c362282a4",
+      "bytes": 8910
+    },
+    {
+      "path": "docs/public/sponsors/jitter.png",
+      "gitBlobSha1": "9987f30eb438eb83ee31837a24606f3b53455b02",
+      "bytes": 13364
+    },
+    {
+      "path": "docs/public/sponsors/kino.jpg",
+      "gitBlobSha1": "1c9be4eb41a06ad94c73f3b84c8564dc16a4a53a",
+      "bytes": 6146
+    },
+    {
+      "path": "docs/public/sponsors/mux.jpg",
+      "gitBlobSha1": "7a3382fe7ae93a6a5e9d20f12c10e83598615e25",
+      "bytes": 7204
+    },
+    {
+      "path": "docs/public/sponsors/photocircle.png",
+      "gitBlobSha1": "9254b513d17a83b98d127e317f779d0990c3f20b",
+      "bytes": 12961
+    },
+    {
+      "path": "docs/public/sponsors/pintura-labs.png",
+      "gitBlobSha1": "ace5e907b6495dcc3081d928ade5adc84e7c6687",
+      "bytes": 603754
+    },
+    {
+      "path": "docs/public/sponsors/ponder.png",
+      "gitBlobSha1": "d335a626cb6a8e7a4b0244e0fcf7424e885977ba",
+      "bytes": 17813
+    },
+    {
+      "path": "docs/public/sponsors/remotion-dark.png",
+      "gitBlobSha1": "04e6ea1c30c498ea680ec2c1d9d9c47f150366ff",
+      "bytes": 13526
+    },
+    {
+      "path": "docs/public/sponsors/remotion-light.png",
+      "gitBlobSha1": "74b359227ba6646c0933da3f767083fe9c44d2b2",
+      "bytes": 19813
+    },
+    {
+      "path": "docs/public/sponsors/rve.png",
+      "gitBlobSha1": "72fee8f569c6131a34b1777f4c0e772e364546b0",
+      "bytes": 8763
+    },
+    {
+      "path": "docs/public/sponsors/screen-studio.webp",
+      "gitBlobSha1": "dc6c20e84c5009a493925c0fc14d0ffca64bd33d",
+      "bytes": 10764
+    },
+    {
+      "path": "docs/public/sponsors/tella.svg",
+      "gitBlobSha1": "dd9e4478799ac7a9079d669f8a915244d6fb5682",
+      "bytes": 2049
+    },
+    {
+      "path": "docs/public/vani.png",
+      "gitBlobSha1": "3a0dde10cdcfc97e0f932e1fb9b21e6002746ae8",
+      "bytes": 265799
+    },
+    {
+      "path": "docs/tsconfig.json",
+      "gitBlobSha1": "04c0b9efd6fe954b9d84d8beebcef62935f1cd0f",
+      "bytes": 220
+    },
+    {
+      "path": "examples/base.css",
+      "gitBlobSha1": "8cc7c705d874a7ea5d728eff0dd6a881d7707019",
+      "bytes": 223
+    },
+    {
+      "path": "examples/base.ts",
+      "gitBlobSha1": "d4e1823c877b3e2df209870526b3d3c1f5bff71d",
+      "bytes": 37
+    },
+    {
+      "path": "examples/file-compression/file-compression.ts",
+      "gitBlobSha1": "cba16e84d618647ebac904ff0b33aeb04e88b7e9",
+      "bytes": 5660
+    },
+    {
+      "path": "examples/file-compression/index.html",
+      "gitBlobSha1": "5725b57ddf94e08a03231bbd394dda5f7e951b21",
+      "bytes": 4206
+    },
+    {
+      "path": "examples/hls-transcoding/hls-transcoding.ts",
+      "gitBlobSha1": "a85fdde5581dd7c0e650c844efd2402453807398",
+      "bytes": 8299
+    },
+    {
+      "path": "examples/hls-transcoding/index.html",
+      "gitBlobSha1": "0cc49f0f4d9b1024e08bc329f292c78ba53f1cbd",
+      "bytes": 7287
+    },
+    {
+      "path": "examples/live-recording/index.html",
+      "gitBlobSha1": "103abb9d23dfeabc9c10d09978c63b1dff4bbc7c",
+      "bytes": 4129
+    },
+    {
+      "path": "examples/live-recording/live-recording.ts",
+      "gitBlobSha1": "8165d913def02266277efb68b20a5dd942ca0318",
+      "bytes": 7486
+    },
+    {
+      "path": "examples/media-player/index.html",
+      "gitBlobSha1": "563c2863875180ebff747ce80fc641c668608e7c",
+      "bytes": 6660
+    },
+    {
+      "path": "examples/media-player/media-player.ts",
+      "gitBlobSha1": "7882ae2be72c3c2cab73c5d0efcc73b82c3bc967",
+      "bytes": 24155
+    },
+    {
+      "path": "examples/metadata-extraction/index.html",
+      "gitBlobSha1": "b6a772e4a56b30a16540d1962a435facd0336870",
+      "bytes": 3981
+    },
+    {
+      "path": "examples/metadata-extraction/metadata-extraction.ts",
+      "gitBlobSha1": "43570553eb709bda4bdfa620639963452fba9837",
+      "bytes": 8657
+    },
+    {
+      "path": "examples/procedural-generation/index.html",
+      "gitBlobSha1": "62ac8c0d7b1c9d9e43489d04f4b911a0b6291723",
+      "bytes": 4627
+    },
+    {
+      "path": "examples/procedural-generation/procedural-generation.ts",
+      "gitBlobSha1": "b15628356f4179459acd62b1bc056c2e99d29fa0",
+      "bytes": 16718
+    },
+    {
+      "path": "examples/thumbnail-generation/index.html",
+      "gitBlobSha1": "d007e6f8de653324de1f76d274f8e5d4d77e45de",
+      "bytes": 3843
+    },
+    {
+      "path": "examples/thumbnail-generation/thumbnail-generation.ts",
+      "gitBlobSha1": "7add9bc8df93debbbef744f3b5ee4c8cb3e5f02c",
+      "bytes": 5905
+    },
+    {
+      "path": "packages/aac-encoder/.gitattributes",
+      "gitBlobSha1": "72ef19acc4e00ea8e6d35b2a57fe07c48bfe9c47",
+      "bytes": 27
+    },
+    {
+      "path": "packages/aac-encoder/LICENSE",
+      "gitBlobSha1": "d0a1fa1482eea82e19510e7920cbe3a03e41f691",
+      "bytes": 16726
+    },
+    {
+      "path": "packages/aac-encoder/README.md",
+      "gitBlobSha1": "9efa6c7eb796e1425a2d90fd046bc54a0ed18ffb",
+      "bytes": 5248
+    },
+    {
+      "path": "packages/aac-encoder/api-extractor.json",
+      "gitBlobSha1": "6908bb7cf07ffafec84b084b9df51109a2611087",
+      "bytes": 772
+    },
+    {
+      "path": "packages/aac-encoder/build/aac.js",
+      "gitBlobSha1": "6b49462faa943e09112c07ef1d3fa082bd34c1c3",
+      "bytes": 589426
+    },
+    {
+      "path": "packages/aac-encoder/package.json",
+      "gitBlobSha1": "b9536255859b4f67eb88f314fee1e2c5ce4c8594",
+      "bytes": 1332
+    },
+    {
+      "path": "packages/aac-encoder/src/bridge.c",
+      "gitBlobSha1": "ed4ca49cb76ed32b96a13a6e6794c782797d37d3",
+      "bytes": 4634
+    },
+    {
+      "path": "packages/aac-encoder/src/encode.worker.ts",
+      "gitBlobSha1": "875de460031214eaedcbe20ce4bdc610f8fc55eb",
+      "bytes": 6526
+    },
+    {
+      "path": "packages/aac-encoder/src/encoder.ts",
+      "gitBlobSha1": "d955914935c167b7358ef6bf21c9d33ace38d23d",
+      "bytes": 9626
+    },
+    {
+      "path": "packages/aac-encoder/src/index.ts",
+      "gitBlobSha1": "f1c0d5b6fe7afbfeca38b4daa6774e02fdd8307f",
+      "bytes": 887
+    },
+    {
+      "path": "packages/aac-encoder/src/shared.ts",
+      "gitBlobSha1": "9f08589af8d6999750796ef5125ff53bda7ad093",
+      "bytes": 986
+    },
+    {
+      "path": "packages/aac-encoder/tsconfig.json",
+      "gitBlobSha1": "27a7ef1056e39c5f038ffe7594d00877f1afa14b",
+      "bytes": 452
+    },
+    {
+      "path": "packages/aac-encoder/tsdoc.json",
+      "gitBlobSha1": "51d29d3ef24a1a07bb9a8856af53fe060bf457ca",
+      "bytes": 130
+    },
+    {
+      "path": "packages/ac3/.gitattributes",
+      "gitBlobSha1": "72ef19acc4e00ea8e6d35b2a57fe07c48bfe9c47",
+      "bytes": 27
+    },
+    {
+      "path": "packages/ac3/LICENSE",
+      "gitBlobSha1": "d0a1fa1482eea82e19510e7920cbe3a03e41f691",
+      "bytes": 16726
+    },
+    {
+      "path": "packages/ac3/README.md",
+      "gitBlobSha1": "cc8be678061f12ef4304aec9fb94aca8cfe03718",
+      "bytes": 4182
+    },
+    {
+      "path": "packages/ac3/api-extractor.json",
+      "gitBlobSha1": "461488c07e48952f9d24c58fade6783a588d27e6",
+      "bytes": 764
+    },
+    {
+      "path": "packages/ac3/build/ac3.js",
+      "gitBlobSha1": "65f4c2fee2722b17f890a0199d33a7064dfa359d",
+      "bytes": 687354
+    },
+    {
+      "path": "packages/ac3/package.json",
+      "gitBlobSha1": "5ee384b22ee3e83e8eca65c66d2ae85f8f91fc2e",
+      "bytes": 1378
+    },
+    {
+      "path": "packages/ac3/src/bridge.c",
+      "gitBlobSha1": "bb88428af686e3d49675016a53670cdd6b8f1092",
+      "bytes": 6958
+    },
+    {
+      "path": "packages/ac3/src/codec.worker.ts",
+      "gitBlobSha1": "2f7f9b382507fff9f9951de05006cf5c1e10aa59",
+      "bytes": 10559
+    },
+    {
+      "path": "packages/ac3/src/decoder.ts",
+      "gitBlobSha1": "8fe27883e11c37915c57ffe9795f4be642b17c07",
+      "bytes": 1951
+    },
+    {
+      "path": "packages/ac3/src/encoder.ts",
+      "gitBlobSha1": "68342f8cd82c61b10328ca7c71ac2f802952043a",
+      "bytes": 5880
+    },
+    {
+      "path": "packages/ac3/src/index.ts",
+      "gitBlobSha1": "cc136afa3d8b8d0d69dbfd6a5132eefe8da77e14",
+      "bytes": 895
+    },
+    {
+      "path": "packages/ac3/src/shared.ts",
+      "gitBlobSha1": "ba8d57805b1a3c7614cbb929e5e1fdb86c79184c",
+      "bytes": 1672
+    },
+    {
+      "path": "packages/ac3/src/worker-client.ts",
+      "gitBlobSha1": "e062ca9183445058da6b5f481171c37d4acd65f1",
+      "bytes": 3750
+    },
+    {
+      "path": "packages/ac3/tsconfig.json",
+      "gitBlobSha1": "27a7ef1056e39c5f038ffe7594d00877f1afa14b",
+      "bytes": 452
+    },
+    {
+      "path": "packages/ac3/tsdoc.json",
+      "gitBlobSha1": "51d29d3ef24a1a07bb9a8856af53fe060bf457ca",
+      "bytes": 130
+    },
+    {
+      "path": "packages/dts/.gitattributes",
+      "gitBlobSha1": "72ef19acc4e00ea8e6d35b2a57fe07c48bfe9c47",
+      "bytes": 27
+    },
+    {
+      "path": "packages/dts/LICENSE",
+      "gitBlobSha1": "d0a1fa1482eea82e19510e7920cbe3a03e41f691",
+      "bytes": 16726
+    },
+    {
+      "path": "packages/dts/README.md",
+      "gitBlobSha1": "7f74a3ec2056c096e378b38c60e478d9b5e1a40e",
+      "bytes": 4072
+    },
+    {
+      "path": "packages/dts/api-extractor.json",
+      "gitBlobSha1": "8cb42c0475dbf18f374cf5ce76801aa43a111b26",
+      "bytes": 764
+    },
+    {
+      "path": "packages/dts/build/dts.js",
+      "gitBlobSha1": "ee435075b92bc851bbdfe37e446649856d5f7eb9",
+      "bytes": 927592
+    },
+    {
+      "path": "packages/dts/package.json",
+      "gitBlobSha1": "f47265c605db783d371b26d1dd816bae42adb68d",
+      "bytes": 1360
+    },
+    {
+      "path": "packages/dts/src/bridge.c",
+      "gitBlobSha1": "b7446c67f6e9867476bd25616192c78b47cec4ba",
+      "bytes": 7919
+    },
+    {
+      "path": "packages/dts/src/codec.worker.ts",
+      "gitBlobSha1": "4858c9f042bdb2d4f45a45c5d5a12d9d8d28d1da",
+      "bytes": 10339
+    },
+    {
+      "path": "packages/dts/src/decoder.ts",
+      "gitBlobSha1": "dd43eb6dee32940b19f61eee36ca1c2d33a29312",
+      "bytes": 1907
+    },
+    {
+      "path": "packages/dts/src/encoder.ts",
+      "gitBlobSha1": "5d0b3ccc59546727b363e4a90827257783e6b227",
+      "bytes": 5762
+    },
+    {
+      "path": "packages/dts/src/index.ts",
+      "gitBlobSha1": "3344b00f381e497269c03970f1596f985ed46fa4",
+      "bytes": 895
+    },
+    {
+      "path": "packages/dts/src/shared.ts",
+      "gitBlobSha1": "27757c1dd58ad6b814dab8f687e3c4636cbacf3e",
+      "bytes": 1655
+    },
+    {
+      "path": "packages/dts/src/worker-client.ts",
+      "gitBlobSha1": "c45115de736caca9414f238de0ca66670989552e",
+      "bytes": 3749
+    },
+    {
+      "path": "packages/dts/tsconfig.json",
+      "gitBlobSha1": "27a7ef1056e39c5f038ffe7594d00877f1afa14b",
+      "bytes": 452
+    },
+    {
+      "path": "packages/dts/tsdoc.json",
+      "gitBlobSha1": "51d29d3ef24a1a07bb9a8856af53fe060bf457ca",
+      "bytes": 130
+    },
+    {
+      "path": "packages/flac-encoder/.gitattributes",
+      "gitBlobSha1": "72ef19acc4e00ea8e6d35b2a57fe07c48bfe9c47",
+      "bytes": 27
+    },
+    {
+      "path": "packages/flac-encoder/LICENSE",
+      "gitBlobSha1": "d0a1fa1482eea82e19510e7920cbe3a03e41f691",
+      "bytes": 16726
+    },
+    {
+      "path": "packages/flac-encoder/README.md",
+      "gitBlobSha1": "86cc470d5474015eeb6c4af451cdcd88d56b6331",
+      "bytes": 4828
+    },
+    {
+      "path": "packages/flac-encoder/api-extractor.json",
+      "gitBlobSha1": "fafe3a5a8dc47d712fcf025684f524024ef539a9",
+      "bytes": 773
+    },
+    {
+      "path": "packages/flac-encoder/build/flac.js",
+      "gitBlobSha1": "815a63d9628cbc0677fe538dbdf04dc553c47728",
+      "bytes": 202222
+    },
+    {
+      "path": "packages/flac-encoder/package.json",
+      "gitBlobSha1": "dab2d56acc5423157015e9976f35a35c848542f1",
+      "bytes": 1324
+    },
+    {
+      "path": "packages/flac-encoder/src/bridge.c",
+      "gitBlobSha1": "02ab4d96187d4f9baf9ae5244be86428e6ae18a8",
+      "bytes": 6285
+    },
+    {
+      "path": "packages/flac-encoder/src/encode.worker.ts",
+      "gitBlobSha1": "aa93e518ef0ec684435e034842e9957842f80d8e",
+      "bytes": 6229
+    },
+    {
+      "path": "packages/flac-encoder/src/encoder.ts",
+      "gitBlobSha1": "0a5ba08f9b2839ee21fbbaadb01127b51d5df5f7",
+      "bytes": 6798
+    },
+    {
+      "path": "packages/flac-encoder/src/index.ts",
+      "gitBlobSha1": "0e3e97ee24c7dfca617fdf32370f4204987c04f3",
+      "bytes": 894
+    },
+    {
+      "path": "packages/flac-encoder/src/shared.ts",
+      "gitBlobSha1": "5b6ff9a12a28605b1d521217c77ea826c3e978a6",
+      "bytes": 956
+    },
+    {
+      "path": "packages/flac-encoder/tsconfig.json",
+      "gitBlobSha1": "27a7ef1056e39c5f038ffe7594d00877f1afa14b",
+      "bytes": 452
+    },
+    {
+      "path": "packages/flac-encoder/tsdoc.json",
+      "gitBlobSha1": "776fc76a3d33d35a6d88a4542c701df1cdfd6742",
+      "bytes": 124
+    },
+    {
+      "path": "packages/mp3-encoder/.gitattributes",
+      "gitBlobSha1": "831b29a6e857fed7d09d1c218f4b26f0b1a3035b",
+      "bytes": 26
+    },
+    {
+      "path": "packages/mp3-encoder/LICENSE",
+      "gitBlobSha1": "d0a1fa1482eea82e19510e7920cbe3a03e41f691",
+      "bytes": 16726
+    },
+    {
+      "path": "packages/mp3-encoder/README.md",
+      "gitBlobSha1": "f79acd4410f17684d5ad185f04624e6cabfcac66",
+      "bytes": 6494
+    },
+    {
+      "path": "packages/mp3-encoder/api-extractor.json",
+      "gitBlobSha1": "4a976cc60584e861d2da7f1d89b83f8a04075393",
+      "bytes": 773
+    },
+    {
+      "path": "packages/mp3-encoder/build/lame.js",
+      "gitBlobSha1": "51b176b426738b7dccaabbd30b1f05da3c6223b2",
+      "bytes": 309562
+    },
+    {
+      "path": "packages/mp3-encoder/build/libmp3lame.a",
+      "gitBlobSha1": "f6a91dd3a5ddab62fc8a78cedeb669c4d8ae16e5",
+      "bytes": 344180
+    },
+    {
+      "path": "packages/mp3-encoder/lib/lame.h",
+      "gitBlobSha1": "5196690ff72100da28bf3eb8b861b0f0f91a2a78",
+      "bytes": 50053
+    },
+    {
+      "path": "packages/mp3-encoder/logo.svg",
+      "gitBlobSha1": "78a881f68abfa598adad5fd509ddc7d9f3d7706d",
+      "bytes": 21943
+    },
+    {
+      "path": "packages/mp3-encoder/package.json",
+      "gitBlobSha1": "cce1cf498bd6ce2afa2e3972259afc52bf47cdd5",
+      "bytes": 1324
+    },
+    {
+      "path": "packages/mp3-encoder/src/encode.worker.ts",
+      "gitBlobSha1": "25e4e3ad7d06e48bad5eaa0f29ee4a9446a4ea89",
+      "bytes": 5985
+    },
+    {
+      "path": "packages/mp3-encoder/src/index.ts",
+      "gitBlobSha1": "7fe29eeba7f51c1132a8e14c1c0fdfaeb45ed10e",
+      "bytes": 8019
+    },
+    {
+      "path": "packages/mp3-encoder/src/lame-bridge.c",
+      "gitBlobSha1": "491ad52f0ef96e12e022bff7b02e26c52c4bb168",
+      "bytes": 1276
+    },
+    {
+      "path": "packages/mp3-encoder/src/shared.ts",
+      "gitBlobSha1": "526dac1ee598dba750de321fcff6bd351e32864f",
+      "bytes": 823
+    },
+    {
+      "path": "packages/mp3-encoder/tsconfig.json",
+      "gitBlobSha1": "27a7ef1056e39c5f038ffe7594d00877f1afa14b",
+      "bytes": 452
+    },
+    {
+      "path": "packages/mp3-encoder/tsdoc.json",
+      "gitBlobSha1": "51d29d3ef24a1a07bb9a8856af53fe060bf457ca",
+      "bytes": 130
+    },
+    {
+      "path": "packages/prores/LICENSE",
+      "gitBlobSha1": "d0a1fa1482eea82e19510e7920cbe3a03e41f691",
+      "bytes": 16726
+    },
+    {
+      "path": "packages/prores/README.md",
+      "gitBlobSha1": "ff714d41d4917f5579575199f2c6ebba20bf8edf",
+      "bytes": 2983
+    },
+    {
+      "path": "packages/prores/api-extractor.json",
+      "gitBlobSha1": "32669c1d0118dd098f255bbde9f98400443bcf3f",
+      "bytes": 767
+    },
+    {
+      "path": "packages/prores/package.json",
+      "gitBlobSha1": "ee2a6347e7c83d7a95e9d828694561ba9be4aa79",
+      "bytes": 1282
+    },
+    {
+      "path": "packages/prores/src/index.ts",
+      "gitBlobSha1": "c8a4a03fd27d6b2bd1734430e4bc95c316980c30",
+      "bytes": 7191
+    },
+    {
+      "path": "packages/prores/tsconfig.json",
+      "gitBlobSha1": "6a0d0927760626c44cd896064bc1b1d22470b1b9",
+      "bytes": 433
+    },
+    {
+      "path": "packages/prores/tsdoc.json",
+      "gitBlobSha1": "51d29d3ef24a1a07bb9a8856af53fe060bf457ca",
+      "bytes": 130
+    },
+    {
+      "path": "packages/server/LICENSE",
+      "gitBlobSha1": "d0a1fa1482eea82e19510e7920cbe3a03e41f691",
+      "bytes": 16726
+    },
+    {
+      "path": "packages/server/README.md",
+      "gitBlobSha1": "3a2cd5c72befa3b436b897c21337b509bf88ba39",
+      "bytes": 13190
+    },
+    {
+      "path": "packages/server/api-extractor.json",
+      "gitBlobSha1": "b8a1bb4da82ad02607fb3d9bfbd927ec121abf86",
+      "bytes": 840
+    },
+    {
+      "path": "packages/server/logo.svg",
+      "gitBlobSha1": "21bddf7994f950dba61c21f56923ade03e0dff56",
+      "bytes": 138801
+    },
+    {
+      "path": "packages/server/package.json",
+      "gitBlobSha1": "4dbc0e1eef5d859706155debda0de6a12f8ffc1e",
+      "bytes": 1454
+    },
+    {
+      "path": "packages/server/src/audio-decoder.ts",
+      "gitBlobSha1": "247d16bd36f6349475394c1138019c6733bcc952",
+      "bytes": 4042
+    },
+    {
+      "path": "packages/server/src/audio-encoder.ts",
+      "gitBlobSha1": "06ec9120c30b5a04dbe8af1465007859a72d1fbf",
+      "bytes": 14071
+    },
+    {
+      "path": "packages/server/src/audio-sample.ts",
+      "gitBlobSha1": "0b54add9553660fa77b65cfb05b7866030bd7bf1",
+      "bytes": 3200
+    },
+    {
+      "path": "packages/server/src/index.ts",
+      "gitBlobSha1": "4ac3333062a7ef172da1a6909d74cfc4195d2b61",
+      "bytes": 6063
+    },
+    {
+      "path": "packages/server/src/misc.ts",
+      "gitBlobSha1": "bf5cbb3d3166dad1085d7df1731261501bf3c30b",
+      "bytes": 10817
+    },
+    {
+      "path": "packages/server/src/video-decoder.ts",
+      "gitBlobSha1": "f28d56a3171b0c01fb5844339f03cb386eb9140f",
+      "bytes": 7928
+    },
+    {
+      "path": "packages/server/src/video-encoder.ts",
+      "gitBlobSha1": "1c794e3316fca5764b81428c365cfe6b2fe8a7a4",
+      "bytes": 24863
+    },
+    {
+      "path": "packages/server/src/video-sample.ts",
+      "gitBlobSha1": "b2d102e1f6c46c59f03f23a728fb9f8a06b9c138",
+      "bytes": 11483
+    },
+    {
+      "path": "packages/server/tsconfig.api-extractor.json",
+      "gitBlobSha1": "9d9606de916a2ba07036a69fbd5363316b66075f",
+      "bytes": 137
+    },
+    {
+      "path": "packages/server/tsconfig.json",
+      "gitBlobSha1": "27a7ef1056e39c5f038ffe7594d00877f1afa14b",
+      "bytes": 452
+    },
+    {
+      "path": "packages/server/tsdoc.json",
+      "gitBlobSha1": "776fc76a3d33d35a6d88a4542c701df1cdfd6742",
+      "bytes": 124
+    },
+    {
+      "path": "test/browser/adts-demuxing.test.ts",
+      "gitBlobSha1": "02905c884961bc6b8a6f31e45b0fbd93cc0d6d8f",
+      "bytes": 1910
+    },
+    {
+      "path": "test/browser/adts-muxing.test.ts",
+      "gitBlobSha1": "33e5a5a9048f002e5d54073db29a01290d9c755d",
+      "bytes": 3597
+    },
+    {
+      "path": "test/browser/audio-samples.test.ts",
+      "gitBlobSha1": "0e6328331fc8166b10476e9e7a0c8ee6c817710a",
+      "bytes": 7559
+    },
+    {
+      "path": "test/browser/cmaf.test.ts",
+      "gitBlobSha1": "9676975c14e4e8262ee4f984bd91ba479378c454",
+      "bytes": 2932
+    },
+    {
+      "path": "test/browser/color-space.test.ts",
+      "gitBlobSha1": "c54046d6d7030415793a205ca32908daad7cff78",
+      "bytes": 6677
+    },
+    {
+      "path": "test/browser/conversion.test.ts",
+      "gitBlobSha1": "4888a02318af34f9d04143dee852ad923888c8e7",
+      "bytes": 36490
+    },
+    {
+      "path": "test/browser/custom-sample-resources.test.ts",
+      "gitBlobSha1": "b3f28c792073915989e257829e9d7b219e42d829",
+      "bytes": 5203
+    },
+    {
+      "path": "test/browser/encode-dimensions.test.ts",
+      "gitBlobSha1": "6e86e192c0e54d456721cf886dfb53a6cb7afb44",
+      "bytes": 2419
+    },
+    {
+      "path": "test/browser/flac-encoder-extension.test.ts",
+      "gitBlobSha1": "519e5a8112fc61028d48bd917486247cca1bc440",
+      "bytes": 3406
+    },
+    {
+      "path": "test/browser/flac.test.ts",
+      "gitBlobSha1": "c4ccf5d26d9dea4ce529c17dabf9765b5bb61a29",
+      "bytes": 2137
+    },
+    {
+      "path": "test/browser/hls-output.test.ts",
+      "gitBlobSha1": "0a9b4fc3bfb86af4ba98894b4b5e1a9f808cc4c9",
+      "bytes": 1518
+    },
+    {
+      "path": "test/browser/media-sinks.test.ts",
+      "gitBlobSha1": "c871bfa34a8db4255c26200ff9916f4465489cdb",
+      "bytes": 2989
+    },
+    {
+      "path": "test/browser/media-sources.test.ts",
+      "gitBlobSha1": "cbe4d480d10b975ae5c0f27f40dbb9cb13a198a1",
+      "bytes": 22551
+    },
+    {
+      "path": "test/browser/mp3.test.ts",
+      "gitBlobSha1": "2c3af54a69c8b07bae5d25c228e491f223b6ef73",
+      "bytes": 773
+    },
+    {
+      "path": "test/browser/mpeg-ts-decoding.test.ts",
+      "gitBlobSha1": "0462bf5779024e4fa91749623371ef3595e45d08",
+      "bytes": 1181
+    },
+    {
+      "path": "test/browser/mpeg-ts-muxing.test.ts",
+      "gitBlobSha1": "fea47729cf6d45daf3d13de60fc863e354a190f6",
+      "bytes": 22726
+    },
+    {
+      "path": "test/browser/ogg-demuxer.test.ts",
+      "gitBlobSha1": "388da4447f5992db2ae11853c76be3e8083bd388",
+      "bytes": 830
+    },
+    {
+      "path": "test/browser/ogg-muxer.test.ts",
+      "gitBlobSha1": "851cfd3b59a61c77acd910103139133496c7d0a0",
+      "bytes": 9304
+    },
+    {
+      "path": "test/browser/par.test.ts",
+      "gitBlobSha1": "8d6ce5a5aec559e826c8551e4eaf186efc1e3bfa",
+      "bytes": 6878
+    },
+    {
+      "path": "test/browser/quality.test.ts",
+      "gitBlobSha1": "44f66374d0826682ee054e9f33a09984748458c1",
+      "bytes": 3483
+    },
+    {
+      "path": "test/browser/read-mp4.test.ts",
+      "gitBlobSha1": "de0aa4a2ffcfc40432deb3524ddb3902ff91b37a",
+      "bytes": 848
+    },
+    {
+      "path": "test/browser/transparency.test.ts",
+      "gitBlobSha1": "7d1cf5f1350801d69a58c18d3165eaeecacf4693",
+      "bytes": 11528
+    },
+    {
+      "path": "test/browser/url-source.test.ts",
+      "gitBlobSha1": "befa870f3229e6ac42f275b71d8bd61ae6faa7d3",
+      "bytes": 1820
+    },
+    {
+      "path": "test/browser/video-samples.test.ts",
+      "gitBlobSha1": "5e18c0498cb8509ee327913561f0fa40f088bedd",
+      "bytes": 16115
+    },
+    {
+      "path": "test/browser/worker-error.test.ts",
+      "gitBlobSha1": "fd7e1f6c7519a44c5182c178c30ce83213c32a6e",
+      "bytes": 2079
+    },
+    {
+      "path": "test/node/aac-encoder-extension.test.ts",
+      "gitBlobSha1": "f1b1efe0ec665f533c9793343e7d6265791771d5",
+      "bytes": 3665
+    },
+    {
+      "path": "test/node/ac3.test.ts",
+      "gitBlobSha1": "9383a3929b94706f3e35ce46cefdd3045b413003",
+      "bytes": 13276
+    },
+    {
+      "path": "test/node/adts-muxer.test.ts",
+      "gitBlobSha1": "ddbcb9c98c79e9dfa982974823edf6d58125a3b4",
+      "bytes": 3893
+    },
+    {
+      "path": "test/node/aes.test.ts",
+      "gitBlobSha1": "ca497e3292f637eb6dacdbe59cb7192e62c98b4e",
+      "bytes": 1909
+    },
+    {
+      "path": "test/node/annex-b-conversion.test.ts",
+      "gitBlobSha1": "79c1e420d3b2c73e7b6794da58276cf9582ae6b7",
+      "bytes": 2583
+    },
+    {
+      "path": "test/node/bad-inputs.test.ts",
+      "gitBlobSha1": "5007813057a7c24a635e4e9adeead8c63abd1ee5",
+      "bytes": 78695
+    },
+    {
+      "path": "test/node/concurrent-runner.test.ts",
+      "gitBlobSha1": "5b1c827e25526a5c91e6a16249226567c3d65a3e",
+      "bytes": 7314
+    },
+    {
+      "path": "test/node/disposition.test.ts",
+      "gitBlobSha1": "f0caab02819846be1d14f5cae8b36833caa5b72a",
+      "bytes": 2269
+    },
+    {
+      "path": "test/node/dts.test.ts",
+      "gitBlobSha1": "76c256ffebb1c974056dbed65fe87b51d6948b7a",
+      "bytes": 12218
+    },
+    {
+      "path": "test/node/duration-from-metadata.test.ts",
+      "gitBlobSha1": "ffc651371239f0ac2301ea0cdb7b91f0c5022b73",
+      "bytes": 3852
+    },
+    {
+      "path": "test/node/empty-media.test.ts",
+      "gitBlobSha1": "eb90f2c90e5b29f5496acd950ed1f111179632f9",
+      "bytes": 21211
+    },
+    {
+      "path": "test/node/flac-encoder-extension.test.ts",
+      "gitBlobSha1": "b39a1cef35ebe96d412e736ab5e88f643d968c4a",
+      "bytes": 3676
+    },
+    {
+      "path": "test/node/flac.test.ts",
+      "gitBlobSha1": "adac88de80e4047f6e33588ddfa60f8ee7d12dc1",
+      "bytes": 10821
+    },
+    {
+      "path": "test/node/frame-rate.test.ts",
+      "gitBlobSha1": "dad6b42501e18599d846a7356d4350cfd444dc2d",
+      "bytes": 5873
+    },
+    {
+      "path": "test/node/hls-input.test.ts",
+      "gitBlobSha1": "adb17c77faea36f0bee4e1f37e2796549d3c8f3f",
+      "bytes": 49467
+    },
+    {
+      "path": "test/node/hls-output.test.ts",
+      "gitBlobSha1": "9bc30979c5dc40734e915d95600be68a052a24cc",
+      "bytes": 133245
+    },
+    {
+      "path": "test/node/input.test.ts",
+      "gitBlobSha1": "5e923af0f0ff00faf40657c5ca51e6717345c8f0",
+      "bytes": 915
+    },
+    {
+      "path": "test/node/isobmff-muxer.test.ts",
+      "gitBlobSha1": "91a28b164deae2ca679ea8121af9127a630dfee2",
+      "bytes": 18255
+    },
+    {
+      "path": "test/node/join-paths.test.ts",
+      "gitBlobSha1": "1c391ced5e1ee3ad413f110d4ff8f3040637d1ec",
+      "bytes": 3075
+    },
+    {
+      "path": "test/node/matroska-demuxer.test.ts",
+      "gitBlobSha1": "16769857925e0017a5447663fbb4b1f40386777c",
+      "bytes": 1511
+    },
+    {
+      "path": "test/node/matroska-muxer.test.ts",
+      "gitBlobSha1": "0087a911d8bb9ff99cbbf0b9ead57e6a5cc160d8",
+      "bytes": 4306
+    },
+    {
+      "path": "test/node/metadata-tags.test.ts",
+      "gitBlobSha1": "5cf57025b780f59e7f2990128426b7142d08b40e",
+      "bytes": 26699
+    },
+    {
+      "path": "test/node/mp3-encoder-extension.test.ts",
+      "gitBlobSha1": "9d2c0f83e4d97e618142a8336530515da432d4af",
+      "bytes": 3766
+    },
+    {
+      "path": "test/node/mp3-muxer.test.ts",
+      "gitBlobSha1": "e4c33d15719914bb57468f91020e91930155acad",
+      "bytes": 1863
+    },
+    {
+      "path": "test/node/mpeg-ts-demuxing.test.ts",
+      "gitBlobSha1": "e02aafc5c567cdd1f7a594973a9b5ddf932249a3",
+      "bytes": 29470
+    },
+    {
+      "path": "test/node/node-sample-creation.test.ts",
+      "gitBlobSha1": "0cf40642df659330ce8841fa96c9ed8b327ef427",
+      "bytes": 574
+    },
+    {
+      "path": "test/node/output.test.ts",
+      "gitBlobSha1": "964862b6258a950cc5cb1146244d0af9f111b603",
+      "bytes": 933
+    },
+    {
+      "path": "test/node/pcm.test.ts",
+      "gitBlobSha1": "5286bc13ac9f70ea3d6c8e4279ef136b8c06b96a",
+      "bytes": 7045
+    },
+    {
+      "path": "test/node/prores.test.ts",
+      "gitBlobSha1": "84ce42061818305cbb58dfbd7dd52456ee3eaacc",
+      "bytes": 5166
+    },
+    {
+      "path": "test/node/read-mp4.test.ts",
+      "gitBlobSha1": "3812c727ed852693379155cb2bdd9c90850a4ad5",
+      "bytes": 8573
+    },
+    {
+      "path": "test/node/read-wav.test.ts",
+      "gitBlobSha1": "fb524ce838fc22a7fc8cd022cba579ab23634912",
+      "bytes": 728
+    },
+    {
+      "path": "test/node/resample.test.ts",
+      "gitBlobSha1": "1ed5d91435c46ae704986f263127fe86eacde1d2",
+      "bytes": 1321
+    },
+    {
+      "path": "test/node/server-extension.test.ts",
+      "gitBlobSha1": "15077efa19896cc5cf275f89fb010ad4b215914c",
+      "bytes": 75716
+    },
+    {
+      "path": "test/node/source-lifetime.test.ts",
+      "gitBlobSha1": "94500691dcd0247096386c31ad3598d96b7d1baf",
+      "bytes": 4275
+    },
+    {
+      "path": "test/node/target.test.ts",
+      "gitBlobSha1": "c28458b70d4f7e819ef5fa534e11667732c0c262",
+      "bytes": 1394
+    },
+    {
+      "path": "test/node/url-source.test.ts",
+      "gitBlobSha1": "8b80a044c8908d540d88eff1b07cc8decd80333b",
+      "bytes": 13236
+    },
+    {
+      "path": "test/node/video-transformation-metadata.test.ts",
+      "gitBlobSha1": "6bdc57dfe292b0c6256bec1c312d274203bfc7d9",
+      "bytes": 4223
+    },
+    {
+      "path": "test/node/webvtt.test.ts",
+      "gitBlobSha1": "5f3f72c9f86216b340d97ed0e00616f8a5694fcd",
+      "bytes": 1157
+    },
+    {
+      "path": "test/public/0.ts",
+      "gitBlobSha1": "0c0200678c83e9259f85f5f2e93b28ba3068d80b",
+      "bytes": 1913464
+    },
+    {
+      "path": "test/public/193039199_mp4_h264_aac_fhd_7.ts",
+      "gitBlobSha1": "9cc0f16b488ca99590d5abd54fe549a08719261b",
+      "bytes": 5312128
+    },
+    {
+      "path": "test/public/639955605-b752f7ad-7ce8-43c2-8ae9-88e74c6ae696.mp4",
+      "gitBlobSha1": "d5c3b2ae850a071a875dd071360df79f3d9f49b6",
+      "bytes": 202607
+    },
+    {
+      "path": "test/public/Toothsome-Meme.VBRv2.mp3",
+      "gitBlobSha1": "4a70e3a34bdc77bfab682a8a962982ce7a09e151",
+      "bytes": 389468
+    },
+    {
+      "path": "test/public/ac3-system-b.ts",
+      "gitBlobSha1": "20a2fdec221084881ca6ef9e0da0cb325bd00ab2",
+      "bytes": 125208
+    },
+    {
+      "path": "test/public/ac3.mkv",
+      "gitBlobSha1": "3b9a2266d491a8fbe4ca1a0ba8a29a39925c8f8a",
+      "bytes": 114039
+    },
+    {
+      "path": "test/public/ac3.mp4",
+      "gitBlobSha1": "4dc638e06b5349dd81f50f3b3aa5ba68fa639f13",
+      "bytes": 113827
+    },
+    {
+      "path": "test/public/ac3.ts",
+      "gitBlobSha1": "38b82c19d688894e3857ce6186caf09a0e976e0d",
+      "bytes": 125208
+    },
+    {
+      "path": "test/public/annex-b-avc.mkv",
+      "gitBlobSha1": "699dfd297d3423e20e20e0b0cf82a2af206a6a07",
+      "bytes": 1318464
+    },
+    {
+      "path": "test/public/annex-b.mp4",
+      "gitBlobSha1": "a53c09d0e52f5666fea55071ffdc94f4744b3c60",
+      "bytes": 100000
+    },
+    {
+      "path": "test/public/cursed-vfr.mp4",
+      "gitBlobSha1": "d9584ac302660a55b1fe57b932613d747e1ee46b",
+      "bytes": 930067
+    },
+    {
+      "path": "test/public/demo.mp4",
+      "gitBlobSha1": "24296a815fc8febc38fafd36f031c61a8f4daeb4",
+      "bytes": 555158
+    },
+    {
+      "path": "test/public/eac3-system-b.ts",
+      "gitBlobSha1": "462911ec6439ee33bb4974bfa92f6829a0fdaf09",
+      "bytes": 113364
+    },
+    {
+      "path": "test/public/eac3.mkv",
+      "gitBlobSha1": "b9fb219869b5e18fba72394269850487efd37ac0",
+      "bytes": 97899
+    },
+    {
+      "path": "test/public/eac3.mp4",
+      "gitBlobSha1": "aa31d2a6dcd7cbd1bf107bfbca78b58705806997",
+      "bytes": 97701
+    },
+    {
+      "path": "test/public/eac3.ts",
+      "gitBlobSha1": "fb00fefa1da1524253e218c9e5361fca15a3c2f9",
+      "bytes": 113364
+    },
+    {
+      "path": "test/public/edts.mp4",
+      "gitBlobSha1": "49fb44c11bb834416b7efa2aa043b9be9512e084",
+      "bytes": 92099
+    },
+    {
+      "path": "test/public/entry24-segment3.ts",
+      "gitBlobSha1": "733c7266ce76c438e13303060d1c5388e5ad5015",
+      "bytes": 639388
+    },
+    {
+      "path": "test/public/frames.webm",
+      "gitBlobSha1": "7b7c0095dc668fa54c4bdcc6bb34bf7269e89931",
+      "bytes": 67304
+    },
+    {
+      "path": "test/public/glitch-hop-is-dead.wav",
+      "gitBlobSha1": "784477ac7223fc0396f8b2714a6b4b0e9b0697e0",
+      "bytes": 1860384
+    },
+    {
+      "path": "test/public/he-aac-v2.mp4",
+      "gitBlobSha1": "58110267abd9cc9ea3d6711ce586f48e6e324069",
+      "bytes": 100000
+    },
+    {
+      "path": "test/public/hevc.ts",
+      "gitBlobSha1": "b06a6b0b3412687fea15c244a1f8d4e8703b64b1",
+      "bytes": 993768
+    },
+    {
+      "path": "test/public/malformed-join.mp3",
+      "gitBlobSha1": "46d7c32c0531b4b9d64ed1ae384a2597870e03ad",
+      "bytes": 163840
+    },
+    {
+      "path": "test/public/missing-keyframe-labels.ts",
+      "gitBlobSha1": "49ecfccf292bcadf70861214ff421488a97a8cc0",
+      "bytes": 1915156
+    },
+    {
+      "path": "test/public/missing-reorder-metadata-v1.mp4",
+      "gitBlobSha1": "71c4d57885045a8d1c1aa17ffdc097b7e6277c8f",
+      "bytes": 1957764
+    },
+    {
+      "path": "test/public/missing-tfdt.mp4",
+      "gitBlobSha1": "8ac3926b2f83a1ad6b64a0cd43e107c59f33d0b4",
+      "bytes": 13246
+    },
+    {
+      "path": "test/public/mp3.ts",
+      "gitBlobSha1": "30ece637ab6e9d15b4f171dc195a9b61b30c93fc",
+      "bytes": 144196
+    },
+    {
+      "path": "test/public/multiple-aac-tracks.mp4",
+      "gitBlobSha1": "f8b04a12a14bac5a82a38a83245632f99f509450",
+      "bytes": 566566
+    },
+    {
+      "path": "test/public/no-aud.ts",
+      "gitBlobSha1": "4bbd9568b05d981efd6c56c3647a354d5d01f77f",
+      "bytes": 1048576
+    },
+    {
+      "path": "test/public/no-initial-keyframe.ts",
+      "gitBlobSha1": "c47e45f469b867a18e0bd866d5e9560f011cc31f",
+      "bytes": 536176
+    },
+    {
+      "path": "test/public/oversized-id3.wav",
+      "gitBlobSha1": "6996ea34c0f6ff785cdddafcea3da7c75d7e68a0",
+      "bytes": 83228
+    },
+    {
+      "path": "test/public/pcm-stsc-not-first-chunk.mp4",
+      "gitBlobSha1": "bbb7a81d89fe560628e6255da58c6fac1dcebdd6",
+      "bytes": 481
+    },
+    {
+      "path": "test/public/red-image.png",
+      "gitBlobSha1": "3c1b03c832b417499f83543014ad6579e6ef89cf",
+      "bytes": 68865
+    },
+    {
+      "path": "test/public/rotate-buck-bunny.mp4",
+      "gitBlobSha1": "4903e7a6b78674bd837e88ab5244df182d56c3ea",
+      "bytes": 675899
+    },
+    {
+      "path": "test/public/sample.flac",
+      "gitBlobSha1": "7a44c93d5d1bf8657b4d6b62a9c87f4de125f1b4",
+      "bytes": 1428894
+    },
+    {
+      "path": "test/public/sample3.aac",
+      "gitBlobSha1": "6ac801196dd31a4c9298b5667a2db65f3f8da594",
+      "bytes": 1758426
+    },
+    {
+      "path": "test/public/sar_2x1.mp4",
+      "gitBlobSha1": "3c4a74aa79da2085c79f2179b4958adf41d74488",
+      "bytes": 500280
+    },
+    {
+      "path": "test/public/sps-only-sar-h264.mp4",
+      "gitBlobSha1": "d96b0025d60473b65363deb90531741a386b3361",
+      "bytes": 1481
+    },
+    {
+      "path": "test/public/sps-only-sar-hevc.mp4",
+      "gitBlobSha1": "e39f7b556c14a38db858e7eacdc4abee0a44a07c",
+      "bytes": 3280
+    },
+    {
+      "path": "test/public/tags-after-clusters.webm",
+      "gitBlobSha1": "3fae4e29b3e772c1a4472cf82c347755f09bf6f4",
+      "bytes": 141
+    },
+    {
+      "path": "test/public/toothsome-dts-esds.mp4",
+      "gitBlobSha1": "ab704ed218638f277586db2e9370131264338d3d",
+      "bytes": 924963
+    },
+    {
+      "path": "test/public/toothsome-dts.mp4",
+      "gitBlobSha1": "f7e1ade6c0c3053312d3a17a865459555cc75db9",
+      "bytes": 925165
+    },
+    {
+      "path": "test/public/transparency-faulty.webm",
+      "gitBlobSha1": "7538ad295c29bad75ea64b78eddb516e161e44b7",
+      "bytes": 1149150
+    },
+    {
+      "path": "test/public/transparency.webm",
+      "gitBlobSha1": "5c13062f7433968b25c8eabfdd4057e65fae0e08",
+      "bytes": 2876932
+    },
+    {
+      "path": "test/public/trim-buck-bunny-ffmpeg.ts",
+      "gitBlobSha1": "46f6623b29757c775abf6a5481626f5e0878c58c",
+      "bytes": 7286128
+    },
+    {
+      "path": "test/public/trunc-buck-bunny.mov",
+      "gitBlobSha1": "9192cd7c3141f5eed09118da63a66ffec0cefd9b",
+      "bytes": 5000000
+    },
+    {
+      "path": "test/public/video-h265.mp4",
+      "gitBlobSha1": "46ead9c43ca4601427133945b5f7c54234070f34",
+      "bytes": 1449927
+    },
+    {
+      "path": "test/public/video.mp4",
+      "gitBlobSha1": "75b02b4109d51666b6527409174b04f45e546027",
+      "bytes": 1992800
+    },
+    {
+      "path": "test/public/vorbis-eos.ogg",
+      "gitBlobSha1": "9a32d4f0e61e1e550798f117c2e5f6bdd23c821d",
+      "bytes": 92218
+    },
+    {
+      "path": "test/public/vp9-smpte170m.webm",
+      "gitBlobSha1": "06c83ef0c617f2f85de9d450bc1bb23f9355a0f5",
+      "bytes": 10178
+    },
+    {
+      "path": "test/public/zero-timestamp-scale.webm",
+      "gitBlobSha1": "f6afede9f68f15bb711b4e138636a4bdf114d1cf",
+      "bytes": 93
+    },
+    {
+      "path": "test/public/zero-width-uint.webm",
+      "gitBlobSha1": "02d6f3987fa8d1eae576c17cf540d4ddeaeaeff2",
+      "bytes": 75
+    }
+  ],
+  "secondaryLicenseExclusionNotices": []
+}

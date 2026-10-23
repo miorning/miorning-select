@@ -1,0 +1,45 @@
+{
+  "name": "mediabunny",
+  "version": "1.62.0",
+  "verifiedDate": "2026-10-23",
+  "upstreamRepository": "https://github.com/Vanilagy/mediabunny",
+  "tag": "v1.62.0",
+  "commit": "03d524ffa1a1429616bcd4434f97714a77432bd7",
+  "npmGitHead": "03d524ffa1a1429616bcd4434f97714a77432bd7",
+  "license": "MPL-2.0",
+  "secondaryLicenseExclusionNotices": [],
+  "npm": {
+    "file": "mediabunny-1.62.0.npm.tgz",
+    "url": "https://registry.npmjs.org/mediabunny/-/mediabunny-1.62.0.tgz",
+    "bytes": 2229308,
+    "sha256": "943c852c707e4bce6afe73d5dec43da894eb964dbf3713460c630368f7393d16",
+    "integrity": "sha512-D8E8BDxjCyqyrGj074jLRQNgilDW5izJu8o9pg7THMYMIZBL1Fao5hOtdDPDfA+nSnk68tMa8IaCJmz8hSpJpw=="
+  },
+  "source": {
+    "file": "mediabunny-1.62.0.source.tar.gz",
+    "sourceUrl": "https://github.com/Vanilagy/mediabunny/tree/03d524ffa1a1429616bcd4434f97714a77432bd7",
+    "officialFullArchiveUrl": "https://codeload.github.com/Vanilagy/mediabunny/tar.gz/03d524ffa1a1429616bcd4434f97714a77432bd7",
+    "scope": "Core Mediabunny source only: all root files, src/**, shared/** and scripts/**. Optional packages/** codecs, tests, examples, documentation subdirectories and media are excluded. Each retained file is unmodified and verified against its Git blob SHA-1. This is not a full repository archive.",
+    "files": 101,
+    "excludedFiles": 339,
+    "bytes": 593450,
+    "sha256": "d23eeb9fd6258c1530473509d66214e839ff03f03484a6d91839ce8a0aa83012",
+    "contentManifest": "mediabunny-1.62.0.source-manifest.json",
+    "gitTree": "mediabunny-1.62.0.git-tree.json"
+  },
+  "integration": {
+    "file": "extension/vendor/mediabunny-1.62.0.js",
+    "sha256": "c453b9d7d624a63654e49a1e55ef5d73195095dfca48e268999c99baa933b6b2",
+    "upstreamPayloadUnmodified": true,
+    "wrapperLicense": "MPL-2.0",
+    "largerWorkLicense": "GPL-3.0-only",
+    "additionalDistribution": "GPL-3.0 under MPL 2.0 section 3.3; original MPL rights retained"
+  },
+  "validation": {
+    "allIncludedGitBlobsVerified": true,
+    "officialTagMatchesNpmGitHead": true,
+    "sourceCompilationPerformed": false,
+    "unresolvedCoreRelativeImports": 0,
+    "requiredCoreBuildFilesPresent": true
+  }
+}

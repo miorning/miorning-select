@@ -1,0 +1,58 @@
+<!-- Copyright (C) 2026 MIORNING. SPDX-License-Identifier: GPL-3.0-only -->
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="喵咛选片台 v0.6 使用说明：网页和聊天视频点选、全部同屏审阅、原编码快速截取、自动新增片段与来源平台回贴。">
+  <title>开始使用 · 喵咛选片台 v0.6</title>
+  <link rel="icon" href="icons/32.png">
+  <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+<a class="skip-link" href="#start">直接查看使用步骤</a>
+<main>
+  <div class="page-meta"><span>MIORNING SELECT</span><span>安装与使用说明 <b>v0.6</b></span></div>
+  <header class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">喵咛选片台 · 浏览器插件</p>
+      <h1>满意的那两秒，<br>选中，就留住。</h1>
+      <p class="intro">把画布、聊天窗口里的图片和视频放到一起比较。<br class="wide-only">停在想要的一帧，截下好片段，接着创作。</p>
+      <div class="hero-actions"><a class="button" href="desk.html">先试本地视频 <span aria-hidden="true">↗</span></a><a class="text-link" href="#install">查看安装方法</a></div>
+    </div>
+    <div class="brand-art"><img src="icons/excellent.png" width="192" height="256" alt="拿着场记板、瞪大眼睛的喵咛黑猫"><span>盯紧好片段。</span></div>
+  </header>
+  <div class="quick-facts" aria-label="核心功能"><p><strong>1—16</strong><span>条原片，全部同屏</span></p><p><strong>2 <small>s</small></strong><span>默认截取，自由调整</span></p><p><strong>64</strong><span>个片段，留在画布</span></p><p><strong class="theme-fact">日 / 夜</strong><span>免费切换主题</span></p></div>
+  <section id="start" class="workflow" aria-labelledby="start-title">
+    <div class="section-heading"><p class="eyebrow">START HERE</p><h2 id="start-title">从一个视频，开始选片。</h2></div>
+    <ol class="steps">
+      <li><span class="step-number" aria-hidden="true">01</span><div><h3>先叫出黑猫</h3><p>安装后普通网页默认显示小黑猫，不弹出欢迎页；工具栏图标也可打开菜单。平时只露头，鼠标悬停才露出身体，离开就收回；点击打开短菜单，按住拖动可吸附到四边。</p><p class="secondary">菜单里可点选视频、打开选片台、导入本地视频、免费切换日夜、查看帮助或暂停本页。暂停后黑猫仍在，点「恢复选片」即可继续。</p></div></li>
+      <li><span class="step-number" aria-hidden="true">02</span><div><h3>把要比较的视频选进来</h3><p>选择「点选素材」，也可直接按 <kbd>Alt + Shift + V</kbd> 开始点选。按 <kbd>Esc</kbd> 完成，进入同屏审片。已有本地图片或视频可直接拖进工作台。图片和视频共用同一组按钮与快捷键，最多 16 条混合同屏。</p><p class="secondary">可识别的视频也可来自 GPT 对话或画布平台的聊天窗口。只有封面、折叠节点或骨架占位时，先打开平台的视频预览并等待加载。</p></div></li>
+      <li><span class="step-number" aria-hidden="true">03</span><div><h3>选中初始帧，确定截取</h3><p>在原片卡片点「截取」，拖动进度或微调到满意的一帧，点击「以当前帧为起点」。时长默认 <strong>2 秒</strong>，也可输入其他时长；确认后，片段立即自动加入插件自己的片段画布。</p><p>想留住结尾？直接点「末尾 2 秒」。也可切到「从终点往前」，选中结束帧，再设置要往前截取的时长。</p><p class="secondary"><strong>每次确认都新增一张片段卡片，不替换上一次。</strong>原片保持完整。新片段可以播放、自由排布、同屏审阅、排序与下载；一张片段画布最多保留 64 段。</p></div></li>
+    </ol>
+  </section>
+  <section class="return-section" aria-labelledby="return-title">
+    <div class="return-heading"><span class="check-mark" aria-hidden="true">✓</span><div><p class="eyebrow">网页选片中默认开启</p><h2 id="return-title">同时导出原画质视频，新增到当前平台</h2></div></div>
+    <p>确认截取后，片段先进入插件画布；随后在本机复制所需的原始压缩数据，导出成独立视频，再交给当前平台的文件导入入口。<strong>每次新增一个片段，不替换原视频或先前的片段。</strong>只想留在插件里时，可取消这项勾选。</p>
+    <p class="quality-note"><strong>快速截取：原编码复制，不再次压缩。</strong>当前支持 H.264 / AVC 编码的 MP4，保留原分辨率、原帧率与视频压缩数据，按实际源帧边界整理封装和播放时间信息；输出文件名显示实际起止时间，时长可能与输入相差一个源帧。不兼容的编码、封装，或跨域限制（CORS）导致原始数据读取失败时，会保留内部片段卡片并明确提示；不会静默改用重新编码。</p>
+    <div class="return-paths"><p><b>一个可用入口</b><span>直接交给该入口。</span></p><p><b>多个导入入口</b><span>先由你选择目标。</span></p><p><b>未识别到入口</b><span>点选目标区域尝试回贴，或下载后手动导入。</span></p></div>
+    <p>原片卡片上的「导入画布」可将完整原文件新增到当前网页，包括本地导入的视频；每次使用独立文件名，原字节不压缩。</p><p class="boundary"><strong>「已交给平台」表示片段已提交到导入入口。</strong>实际上传进度、是否创建节点，以平台自己的提示为准。聊天消息仍由你检查后手动发送，插件不会自动发送。插件独立本地工作台没有来源平台，可直接下载片段。</p>
+  </section>
+  <div class="detail-grid">
+    <section aria-labelledby="compare-title"><p class="eyebrow">REVIEW &amp; EDIT</p><h2 id="compare-title">一起看，也能细细剪。</h2><p>图片与视频比较支持 1—16 条全部同屏，随窗口和数量自动排布；片段画布也有「同屏审片」。拖动标题调整顺序，无需下拉或左右翻找。</p><p>图片保持静止，自己的时间条固定为零；GIF 等动图也以静止画面比较。图片的截取、原声和精调按钮保持原位并置灰。视频的同步播放、动作对齐、屏蔽候选和单条原声保留。进入「精调」，继续分割、选段与对齐。</p><p class="secondary">多路高分辨率播放取决于设备，建议从 2—4 条开始。屏蔽某条会暂停它的播放与声音。</p></section>
+    <section aria-labelledby="music-title"><p class="eyebrow">MUSIC &amp; TIMING</p><h2 id="music-title">从喜欢的那一句开始。</h2><p>点「＋ 配乐」打开独立面板，导入本地音频，在波形上定位并试听。点「从当前点开始」设置<strong>原曲起点</strong>，选择从这首音乐的哪一秒开始取用。</p><p><strong>时间线上延后</strong>控制音乐在影片开始后多久响起。例如，原曲起点设为 30 秒、延后设为 3 秒：影片先走 3 秒，再从音乐的第 30 秒开始播放。</p><p class="secondary">两项独立调整。「剪辑 / 下载」的全片预览选择导入的配乐时也遵循这些设置；选择各片段原声时仅播放原声。</p></section>
+    <section aria-labelledby="sequence-title"><p class="eyebrow">SEQUENCE &amp; EXPORT</p><h2 id="sequence-title">需要合成，再去剪辑。</h2><p>「剪辑 / 下载」保留连续时间轴、拖边裁切、排序及逐段或合成导出，也可选择原声、配乐或静音。</p><p><strong>这一组导出功能会在本机重新编码。</strong>可选首段原分辨率或最高 720p，小视频不放大，异尺寸素材等比例留边。优先 MP4，浏览器不支持时使用 WebM。</p><p class="secondary">这与快速截取的原编码复制不同。合成时请保持标签页在前台；耗时通常接近影片时长，帧率、HDR、色彩及元数据可能变化，正式交付前请复核。</p></section>
+    <section aria-labelledby="restore-title"><p class="eyebrow">PICK UP WHERE YOU LEFT OFF</p><h2 id="restore-title">下次，接着这一组。</h2><p>素材、片段、配乐与排列跨网页共用，保存在当前浏览器资料下的插件 IndexedDB 中。本地文件与可读取的在线原文件会缓存，保留原字节；只有自己删除或清空才移除。未能读取的来源会标记为仅链接，失效时可重新选入。</p><p class="secondary">单个文件最多缓存 250 MiB。超出缓存限制或存储空间不足时可能只能临时使用。卸载扩展或清除扩展数据会删除项目与缓存，不影响电脑上的原文件。</p><p class="privacy"><strong>数据在哪里？</strong>除你启用回贴后，经来源平台导入入口上传的片段外，选片、比较、裁切与缓存均在本机处理。</p></section>
+  </div>
+  <section id="install" class="installation" aria-labelledby="install-title">
+    <div class="section-heading"><p class="eyebrow">INSTALL &amp; KEEP</p><h2 id="install-title">装好一次，用时叫出它。</h2></div>
+    <ol class="install-steps"><li>解压完整安装包。</li><li>打开 Chrome 或 Edge 的扩展管理页，开启「开发者模式」。</li><li>选择「加载已解压的扩展程序」，选中包里的 <code>extension</code> 文件夹。</li><li>打开普通网页，页面边缘默认显示猫头；已有页面可刷新一次。</li></ol>
+    <p>无需 npm 或本地服务器。右上角「⋯」可设置 17 项应用快捷键、查看缓存用量及清空缓存；浏览器级快捷键另在扩展设置中配置。普通 HTTP/HTTPS 网页默认注入轻量猫头；<code>unlimitedStorage</code> 用于显式管理的原文件缓存，打开面板才加载媒体库。浏览器设置页、商店页等受限页面不显示插件。</p>
+    <p class="secondary">更新时尽量保留原安装目录，在扩展管理页点击「重新加载」，然后刷新需要使用的网页。保留一份原视频，可以在缓存或链接失效时恢复素材。</p>
+  </section>
+  <section class="boundaries" aria-labelledby="boundary-title"><h2 id="boundary-title">关于兼容与回贴</h2><ul><li>纯 Canvas 封面、跨域 iframe、DRM 和部分 blob / MSE 流不保证识别或处理。能播放不代表浏览器允许读取原始视频数据；读取失败时，请下载原片后本地导入。</li><li>快速截取不会用重编码代替失败的原编码复制。已加入插件画布的片段会保留，修复来源后可以重试。</li><li>回贴依赖平台的视频导入入口及浏览器事件兼容性。<strong>新版尚未完成 LibTV、即梦真实登录平台的回贴验证。</strong></li></ul></section>
+  <footer><span>MIORNING SELECT <b>0.6</b></span><span>喵咛黑猫，盯紧每一秒的选择。仅供本地安装与审阅。</span></footer>
+</main>
+</body>
+</html>
+
